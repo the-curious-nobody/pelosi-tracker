@@ -3,9 +3,7 @@
  "baseline_period_end": "2025-12-31",
  "coverage": {
   "filed_through": "2026-08-21",
-  "known_gaps": [
-   "2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it)"
-  ]
+  "known_gaps": []
  },
  "method": "annual Schedule A baseline + subsequent transactions; share balances are never computed - only disclosed movements are shown",
  "stocks": [
@@ -16,7 +14,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -25,7 +23,7 @@
     "in_known_bucket": true,
     "exact": false
    },
-   "income_types": "Capital Gains, Dividends",
+   "income_types": "Capital Gains Dividends",
    "income": {
     "raw": "Over $5,000,000",
     "min": 5000000,
@@ -56,7 +54,26 @@
      "kind": "gift",
      "is_gift": true,
      "filing_ids": [
-      "20033337",
+      "10075701"
+     ]
+    },
+    {
+     "date": "2025-10-22",
+     "shares": -382,
+     "unit": "shares",
+     "kind": "gift",
+     "is_gift": true,
+     "filing_ids": [
+      "20033337"
+     ]
+    },
+    {
+     "date": "2025-12-24",
+     "shares": -45000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
       "10075701"
      ]
     },
@@ -67,7 +84,16 @@
      "kind": "share_sale",
      "is_gift": false,
      "filing_ids": [
-      "20033725",
+      "20033725"
+     ]
+    },
+    {
+     "date": "2025-12-30",
+     "shares": -28200,
+     "unit": "shares",
+     "kind": "gift",
+     "is_gift": true,
+     "filing_ids": [
       "10075701"
      ]
     },
@@ -78,8 +104,7 @@
      "kind": "gift",
      "is_gift": true,
      "filing_ids": [
-      "20033725",
-      "10075701"
+      "20033725"
      ]
     }
    ],
@@ -89,7 +114,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -101,7 +126,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -111,7 +136,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -122,7 +147,7 @@
    },
    "income_types": "Capital Gains",
    "income": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -  $5,000,000",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -141,8 +166,17 @@
      "kind": "share_sale",
      "is_gift": false,
      "filing_ids": [
-      "20033725",
       "10075701"
+     ]
+    },
+    {
+     "date": "2025-12-24",
+     "shares": -20000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
      ]
     },
     {
@@ -162,7 +196,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -180,7 +214,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -190,7 +224,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -220,6 +254,7 @@
      "kind": "exercise",
      "is_gift": false,
      "filing_ids": [
+      "20030630",
       "10075701"
      ]
     }
@@ -230,7 +265,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -242,7 +277,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -252,7 +287,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -281,7 +316,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$1,000,001 - $5,000,000",
+      "raw": "$1,000,001 -",
       "min": 1000001,
       "max": 5000000,
       "is_none": false,
@@ -293,7 +328,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -348,64 +383,13 @@
    ]
   },
   {
-   "asset_id": "CLNE",
-   "ticker": "CLNE",
-   "name": "Clean Energy Fuels Corp.",
-   "owner": "SP",
-   "instrument": "stock",
-   "period_end_value": {
-    "raw": "$1,001 - $15,000",
-    "min": 1001,
-    "max": 15000,
-    "is_none": false,
-    "undetermined": false,
-    "max_inferred": false,
-    "in_known_bucket": true,
-    "exact": false
-   },
-   "income_types": null,
-   "income": {
-    "raw": "None",
-    "min": null,
-    "max": null,
-    "is_none": true,
-    "undetermined": false,
-    "max_inferred": false,
-    "in_known_bucket": null,
-    "exact": false
-   },
-   "status": "Likely Held",
-   "confidence": "medium",
-   "disclosed_movements": [],
-   "evidence": [
-    {
-     "type": "annual_position",
-     "filing_id": "10075701",
-     "as_of_period_end": "2025-12-31",
-     "value_range": {
-      "raw": "$1,001 - $15,000",
-      "min": 1001,
-      "max": 15000,
-      "is_none": false,
-      "undetermined": false,
-      "max_inferred": false,
-      "in_known_bucket": true,
-      "exact": false
-     }
-    }
-   ],
-   "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
-   ]
-  },
-  {
    "asset_id": "CMCSA",
    "ticker": "CMCSA",
    "name": "Comcast Corporation",
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$500,001 - $1,000,000",
+    "raw": "$500,001 -",
     "min": 500001,
     "max": 1000000,
     "is_none": false,
@@ -434,7 +418,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$500,001 - $1,000,000",
+      "raw": "$500,001 -",
       "min": 500001,
       "max": 1000000,
       "is_none": false,
@@ -446,7 +430,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -456,7 +440,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -485,7 +469,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -497,7 +481,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -548,7 +532,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -599,7 +583,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -620,7 +604,7 @@
    },
    "income_types": "Dividends, Capital Loss",
    "income": {
-    "raw": "$100,001 - $1,000,000",
+    "raw": "$100,001 -",
     "min": 100001,
     "max": 1000000,
     "is_none": false,
@@ -672,7 +656,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -702,8 +686,17 @@
      "kind": "gift",
      "is_gift": true,
      "filing_ids": [
-      "20033725",
       "10075701"
+     ]
+    },
+    {
+     "date": "2025-12-30",
+     "shares": -7704,
+     "unit": "shares",
+     "kind": "gift",
+     "is_gift": true,
+     "filing_ids": [
+      "20033725"
      ]
     },
     {
@@ -723,7 +716,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -741,7 +734,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -751,7 +744,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$500,001 - $1,000,000",
+    "raw": "$500,001 -",
     "min": 500001,
     "max": 1000000,
     "is_none": false,
@@ -780,7 +773,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$500,001 - $1,000,000",
+      "raw": "$500,001 -",
       "min": 500001,
       "max": 1000000,
       "is_none": false,
@@ -792,7 +785,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -837,7 +830,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$100,001 - $250,000",
+    "raw": "$100,001 -",
     "min": 100001,
     "max": 250000,
     "is_none": false,
@@ -866,7 +859,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$100,001 - $250,000",
+      "raw": "$100,001 -",
       "min": 100001,
       "max": 250000,
       "is_none": false,
@@ -878,7 +871,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -888,7 +881,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -917,7 +910,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -929,7 +922,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -980,7 +973,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -990,7 +983,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -999,9 +992,9 @@
     "in_known_bucket": true,
     "exact": false
    },
-   "income_types": "Capital Gains, Dividends",
+   "income_types": "Capital Gains Dividends",
    "income": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -1040,8 +1033,17 @@
      "kind": "share_sale",
      "is_gift": false,
      "filing_ids": [
-      "20033725",
       "10075701"
+     ]
+    },
+    {
+     "date": "2025-12-24",
+     "shares": -20000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
      ]
     },
     {
@@ -1061,7 +1063,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -1079,7 +1081,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1089,7 +1091,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -1098,15 +1100,15 @@
     "in_known_bucket": true,
     "exact": false
    },
-   "income_types": null,
+   "income_types": "None PayPal Holdings, Inc. (PYPL) [ST] SP None Dividends, Capital Loss",
    "income": {
-    "raw": "None",
-    "min": null,
-    "max": null,
-    "is_none": true,
+    "raw": "$100,001 -",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
     "undetermined": false,
     "max_inferred": false,
-    "in_known_bucket": null,
+    "in_known_bucket": true,
     "exact": false
    },
    "status": "Likely Held",
@@ -1129,7 +1131,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$1,000,001 - $5,000,000",
+      "raw": "$1,000,001 -",
       "min": 1000001,
       "max": 5000000,
       "is_none": false,
@@ -1141,7 +1143,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1150,29 +1152,11 @@
    "name": "PayPal Holdings, Inc.",
    "owner": "SP",
    "instrument": "stock",
-   "period_end_value": {
-    "raw": "None",
-    "min": null,
-    "max": null,
-    "is_none": true,
-    "undetermined": false,
-    "max_inferred": false,
-    "in_known_bucket": null,
-    "exact": false
-   },
-   "income_types": "Dividends, Capital Loss",
-   "income": {
-    "raw": "$100,001 - $1,000,000",
-    "min": 100001,
-    "max": 1000000,
-    "is_none": false,
-    "undetermined": false,
-    "max_inferred": false,
-    "in_known_bucket": true,
-    "exact": false
-   },
-   "status": "Closed (as of 2025-12-31)",
-   "confidence": "high",
+   "period_end_value": null,
+   "income_types": null,
+   "income": null,
+   "status": "Closed (full sale 2025-12-30)",
+   "confidence": "medium",
    "disclosed_movements": [
     {
      "date": "2025-12-30",
@@ -1188,23 +1172,14 @@
    ],
    "evidence": [
     {
-     "type": "annual_position",
-     "filing_id": "10075701",
-     "as_of_period_end": "2025-12-31",
-     "value_range": {
-      "raw": "None",
-      "min": null,
-      "max": null,
-      "is_none": true,
-      "undetermined": false,
-      "max_inferred": false,
-      "in_known_bucket": null,
-      "exact": false
-     }
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2025-12-30",
+     "code": "S"
     }
    ],
    "notes": [
-    "annual report lists the position with no year-end value; income column shows it existed during the year"
+    "no annual-report baseline ingested for this asset"
    ]
   },
   {
@@ -1255,7 +1230,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1306,7 +1281,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1357,7 +1332,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1367,7 +1342,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$100,001 - $250,000",
+    "raw": "$100,001 -",
     "min": 100001,
     "max": 250000,
     "is_none": false,
@@ -1396,7 +1371,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$100,001 - $250,000",
+      "raw": "$100,001 -",
       "min": 100001,
       "max": 250000,
       "is_none": false,
@@ -1408,7 +1383,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1453,7 +1428,7 @@
    "owner": "SP",
    "instrument": "stock",
    "period_end_value": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -1482,7 +1457,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$5,000,001 - $25,000,000",
+      "raw": "$5,000,001 -",
       "min": 5000001,
       "max": 25000000,
       "is_none": false,
@@ -1494,42 +1469,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
-   ]
-  },
-  {
-   "asset_id": "VSNT",
-   "ticker": "VSNT",
-   "name": "Versant Media Group, Inc.",
-   "owner": "SP",
-   "instrument": "stock",
-   "period_end_value": null,
-   "income_types": null,
-   "income": null,
-   "status": "Possibly Held (shares received in corporate action; no annual baseline)",
-   "confidence": "low",
-   "disclosed_movements": [
-    {
-     "date": "2026-01-02",
-     "shares": 776,
-     "unit": "shares",
-     "kind": "shares_received",
-     "is_gift": false,
-     "filing_ids": [
-      "20033725"
-     ]
-    }
-   ],
-   "evidence": [
-    {
-     "type": "transaction",
-     "filing_id": "20033725",
-     "date": "2026-01-02",
-     "code": "E"
-    }
-   ],
-   "notes": [
-    "no annual-report baseline ingested for this asset"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1537,7 +1477,7 @@
    "ticker": "VST",
    "name": "Vistra Corp.",
    "owner": "SP",
-   "instrument": "stock",
+   "instrument": "unknown",
    "period_end_value": null,
    "income_types": null,
    "income": null,
@@ -1556,6 +1496,12 @@
     }
    ],
    "evidence": [
+    {
+     "type": "transaction",
+     "filing_id": "20026590",
+     "date": "2025-01-14",
+     "code": "P"
+    },
     {
      "type": "transaction",
      "filing_id": "20033725",
@@ -1615,7 +1561,7 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1655,6 +1601,7 @@
      "kind": "unit_sale",
      "is_gift": false,
      "filing_ids": [
+      "20030630",
       "10075701"
      ]
     }
@@ -1728,7 +1675,42 @@
     }
    ],
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
+   ]
+  },
+  {
+   "asset_id": "versant-media-group-inc",
+   "ticker": null,
+   "name": "Versant Media Group, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": null,
+   "income_types": null,
+   "income": null,
+   "status": "Possibly Held (shares received in corporate action; no annual baseline)",
+   "confidence": "low",
+   "disclosed_movements": [
+    {
+     "date": "2026-01-02",
+     "shares": 776,
+     "unit": "shares",
+     "kind": "shares_received",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2026-01-02",
+     "code": "E"
+    }
+   ],
+   "notes": [
+    "no annual-report baseline ingested for this asset"
    ]
   }
  ],
@@ -1761,10 +1743,25 @@
     },
     {
      "type": "purchase",
-     "filing_id": "20033725",
+     "filing_id": "10075701",
      "date": "2025-12-30",
      "amount": {
       "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20033725",
+     "date": "2025-12-30",
+     "amount": {
+      "raw": "$250,001 - [OP] $500,000",
       "min": 250001,
       "max": 500000,
       "is_none": false,
@@ -1777,7 +1774,7 @@
    ],
    "resolution": null,
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1874,7 +1871,7 @@
    ],
    "resolution": null,
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -1908,7 +1905,7 @@
     "kind": "exercised",
     "date": "2025-06-20",
     "shares": 20000,
-    "filing_id": "10075701"
+    "filing_id": "20030630"
    },
    "notes": []
   },
@@ -1975,7 +1972,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$1,000,001 - $5,000,000",
+      "raw": "$1,000,001 -",
       "min": 1000001,
       "max": 5000000,
       "is_none": false,
@@ -2025,7 +2022,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$1,000,001 - $5,000,000",
+      "raw": "$1,000,001 -",
       "min": 1000001,
       "max": 5000000,
       "is_none": false,
@@ -2053,8 +2050,38 @@
    ],
    "resolution": null,
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
+  },
+  {
+   "asset_id": "INTC",
+   "name": "Intel Corporation",
+   "option_type": "call",
+   "contracts": 200,
+   "strike": 50.0,
+   "expiration": "2027-03-19",
+   "acquired": "2026-05-29",
+   "status": "Likely Held",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "purchase",
+     "filing_id": "20034836",
+     "date": "2026-05-29",
+     "amount": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": []
   },
   {
    "asset_id": "INTC",
@@ -2201,7 +2228,7 @@
    ],
    "resolution": null,
    "notes": [
-    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21"
    ]
   },
   {
@@ -2241,7 +2268,7 @@
      "filing_id": "10075701",
      "as_of_period_end": "2025-12-31",
      "value_range": {
-      "raw": "$100,001 - $250,000",
+      "raw": "$100,001 -",
       "min": 100001,
       "max": 250000,
       "is_none": false,
@@ -2276,6 +2303,36 @@
    "notes": []
   },
   {
+   "asset_id": "UBER",
+   "name": "Uber Technologies, Inc.",
+   "option_type": "call",
+   "contracts": 200,
+   "strike": 50.0,
+   "expiration": "2027-03-19",
+   "acquired": "2026-05-29",
+   "status": "Likely Held",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "purchase",
+     "filing_id": "20034836",
+     "date": "2026-05-29",
+     "amount": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": []
+  },
+  {
    "asset_id": "VST",
    "name": "Vistra Corp.",
    "option_type": "call",
@@ -2303,10 +2360,25 @@
     },
     {
      "type": "purchase",
-     "filing_id": "20026590",
+     "filing_id": "10075701",
      "date": "2025-01-14",
      "amount": {
       "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20026590",
+     "date": "2025-01-14",
+     "amount": {
+      "raw": "$500,001 - [OP] $1,000,000",
       "min": 500001,
       "max": 1000000,
       "is_none": false,
@@ -2333,7 +2405,7 @@
    "owner": "JT",
    "instrument": "real_property",
    "value_range": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -2344,7 +2416,7 @@
    },
    "income_types": "Grape Sales",
    "income": {
-    "raw": "$100,001 - $1,000,000",
+    "raw": "$100,001 -  $1,000,000",
     "min": 100001,
     "max": 1000000,
     "is_none": false,
@@ -2363,7 +2435,7 @@
    "owner": "SP",
    "instrument": "real_property",
    "value_range": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -2374,7 +2446,7 @@
    },
    "income_types": "Rent",
    "income": {
-    "raw": "$100,001 - $1,000,000",
+    "raw": "$100,001 -  $1,000,000",
     "min": 100001,
     "max": 1000000,
     "is_none": false,
@@ -2393,7 +2465,7 @@
    "owner": "SP",
    "instrument": "real_property",
    "value_range": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -2404,7 +2476,7 @@
    },
    "income_types": "Rent",
    "income": {
-    "raw": "$100,001 - $1,000,000",
+    "raw": "$100,001 -  $1,000,000",
     "min": 100001,
     "max": 1000000,
     "is_none": false,
@@ -2423,7 +2495,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -2486,7 +2558,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -2691,8 +2763,8 @@
    "description": "San Francisco, CA"
   },
   {
-   "asset_id": "city-national-securities-brokerage-money-market-account",
-   "name": "City National Securities - Brokerage Money Market Account",
+   "asset_id": "city-national-securities-brokerage-money-market",
+   "name": "City National Securities - Brokerage Money Market",
    "owner": "SP",
    "instrument": "bank_account",
    "value_range": {
@@ -2705,15 +2777,15 @@
     "in_known_bucket": null,
     "exact": false
    },
-   "income_types": "Interest",
+   "income_types": "Interest $1 - $200 Account Clean Energy Fuels Corp. (CLNE) [ST] SP $1,001 - $15,000",
    "income": {
-    "raw": "$1 - $200",
-    "min": 1,
-    "max": 200,
-    "is_none": false,
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
     "undetermined": false,
     "max_inferred": false,
-    "in_known_bucket": true,
+    "in_known_bucket": null,
     "exact": false
    },
    "status": "Reported in annual report (period ending 2025-12-31)",
@@ -2756,7 +2828,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$250,001 - $500,000",
+    "raw": "$250,001 -",
     "min": 250001,
     "max": 500000,
     "is_none": false,
@@ -2846,7 +2918,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -2966,7 +3038,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -2977,7 +3049,7 @@
    },
    "income_types": "Partnership Income",
    "income": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -2996,7 +3068,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -3026,7 +3098,7 @@
    "owner": "SP",
    "instrument": "asset_backed_or_fund",
    "value_range": {
-    "raw": "$100,001 - $250,000",
+    "raw": "$100,001 -",
     "min": 100001,
     "max": 250000,
     "is_none": false,
@@ -3056,7 +3128,7 @@
    "owner": "SP",
    "instrument": "asset_backed_or_fund",
    "value_range": {
-    "raw": "$100,001 - $250,000",
+    "raw": "$100,001 -",
     "min": 100001,
     "max": 250000,
     "is_none": false,
@@ -3067,7 +3139,7 @@
    },
    "income_types": "Partnership Loss",
    "income": {
-    "raw": "$100,001 - $1,000,000",
+    "raw": "$100,001 -  $1,000,000",
     "min": 100001,
     "max": 1000000,
     "is_none": false,
@@ -3086,7 +3158,7 @@
    "owner": "SP",
    "instrument": "asset_backed_or_fund",
    "value_range": {
-    "raw": "$100,001 - $250,000",
+    "raw": "$100,001 -",
     "min": 100001,
     "max": 250000,
     "is_none": false,
@@ -3149,7 +3221,7 @@
    "owner": "SP",
    "instrument": "asset_backed_or_fund",
    "value_range": {
-    "raw": "$250,001 - $500,000",
+    "raw": "$250,001 -",
     "min": 250001,
     "max": 500000,
     "is_none": false,
@@ -3179,7 +3251,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$1,000,001 - $5,000,000",
+    "raw": "$1,000,001 -",
     "min": 1000001,
     "max": 5000000,
     "is_none": false,
@@ -3209,7 +3281,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$250,001 - $500,000",
+    "raw": "$250,001 -",
     "min": 250001,
     "max": 500000,
     "is_none": false,
@@ -3269,7 +3341,7 @@
    "owner": "SP",
    "instrument": "business_interest",
    "value_range": {
-    "raw": "$5,000,001 - $25,000,000",
+    "raw": "$5,000,001 -",
     "min": 5000001,
     "max": 25000000,
     "is_none": false,
@@ -3278,7 +3350,7 @@
     "in_known_bucket": true,
     "exact": false
    },
-   "income_types": "Partnership Loss, Rent",
+   "income_types": "Partnership Loss Rent",
    "income": {
     "raw": "$15,001 - $50,000",
     "min": 15001,

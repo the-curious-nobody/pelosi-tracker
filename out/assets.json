@@ -41,7 +41,8 @@
   "is_security": true,
   "instruments": [
    "option",
-   "stock"
+   "stock",
+   "unknown"
   ],
   "name_variants": [
    "Apple Inc. (AAPL)",
@@ -113,18 +114,6 @@
    "Bloom Energy Corporation Class A Common Stock (BE)"
   ],
   "canonical_name": "Bloom Energy Corporation"
- },
- "CLNE": {
-  "asset_id": "CLNE",
-  "ticker": "CLNE",
-  "is_security": true,
-  "instruments": [
-   "stock"
-  ],
-  "name_variants": [
-   "Clean Energy Fuels Corp. (CLNE)"
-  ],
-  "canonical_name": "Clean Energy Fuels Corp."
  },
  "CMCSA": {
   "asset_id": "CMCSA",
@@ -279,7 +268,8 @@
   "ticker": "PANW",
   "is_security": true,
   "instruments": [
-   "stock"
+   "stock",
+   "unknown"
   ],
   "name_variants": [
    "Palo Alto Networks, Inc. (PANW)",
@@ -295,7 +285,6 @@
    "stock"
   ],
   "name_variants": [
-   "PayPal Holdings, Inc. (PYPL)",
    "PayPal Holdings, Inc. - Common Stock (PYPL)"
   ],
   "canonical_name": "PayPal Holdings, Inc."
@@ -361,6 +350,18 @@
   ],
   "canonical_name": "Tempus AI, Inc."
  },
+ "UBER": {
+  "asset_id": "UBER",
+  "ticker": "UBER",
+  "is_security": true,
+  "instruments": [
+   "option"
+  ],
+  "name_variants": [
+   "Uber Technologies, Inc. Common Stock (UBER)"
+  ],
+  "canonical_name": "Uber Technologies, Inc."
+ },
  "V": {
   "asset_id": "V",
   "ticker": "V",
@@ -373,25 +374,13 @@
   ],
   "canonical_name": "Visa Inc."
  },
- "VSNT": {
-  "asset_id": "VSNT",
-  "ticker": "VSNT",
-  "is_security": true,
-  "instruments": [
-   "stock"
-  ],
-  "name_variants": [
-   "Versant Media Group, Inc. - Class A Common Stock (VSNT)"
-  ],
-  "canonical_name": "Versant Media Group, Inc."
- },
  "VST": {
   "asset_id": "VST",
   "ticker": "VST",
   "is_security": true,
   "instruments": [
    "option",
-   "stock"
+   "unknown"
   ],
   "name_variants": [
    "Vistra Corp. Common Stock (VST)"
@@ -482,17 +471,17 @@
   ],
   "canonical_name": "City National Bank - Checking Account"
  },
- "city-national-securities-brokerage-money-market-account": {
-  "asset_id": "city-national-securities-brokerage-money-market-account",
+ "city-national-securities-brokerage-money-market": {
+  "asset_id": "city-national-securities-brokerage-money-market",
   "ticker": null,
   "is_security": false,
   "instruments": [
    "bank_account"
   ],
   "name_variants": [
-   "City National Securities - Brokerage Money Market Account"
+   "City National Securities - Brokerage Money Market"
   ],
-  "canonical_name": "City National Securities - Brokerage Money Market Account"
+  "canonical_name": "City National Securities - Brokerage Money Market"
  },
  "congressional-credit-union-checking-account": {
   "asset_id": "congressional-credit-union-checking-account",
@@ -770,6 +759,18 @@
    "U.S. Bank - Pelosi Trust Checking Account"
   ],
   "canonical_name": "U.S. Bank - Pelosi Trust Checking Account"
+ },
+ "versant-media-group-inc": {
+  "asset_id": "versant-media-group-inc",
+  "ticker": null,
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Versant Media Group, Inc. - Class A"
+  ],
+  "canonical_name": "Versant Media Group, Inc."
  },
  "wells-fargo-bank-checking-account": {
   "asset_id": "wells-fargo-bank-checking-account",
