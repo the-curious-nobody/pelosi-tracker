@@ -1,0 +1,92 @@
+name: Update tracker
+
+on:
+  schedule:
+    # A few polite checks per day. The Clerk republishes the yearly index
+    # daily and the underlying data carries a 30-45 day statutory lag, so
+    # anything faster buys nothing. Odd minute avoids top-of-hour load.
+    - cron: "23 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-tracker
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF extraction
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          pip install pdfplumber
+
+      - name: Sync official filings and rebuild dataset
+        # --fail-on-review publishes NOTHING if any row needs human eyes:
+        # accuracy over speed. A failed run emails the repo owner.
+        run: |
+          python -m pelosi_tracker.pipeline \
+            --data data --out out \
+            --years $(date -d "1 year ago" +%Y) $(date +%Y) \
+            --fail-on-review
+
+      - name: Upload debug bundle (only when something failed)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-bundle
+          path: |
+            out/review.json
+            data/text
+          if-no-files-found: ignore
+
+      - name: Regression tests against real-filing fixtures
+        run: |
+          python -m tests.test_parsers
+          python -m tests.test_pipeline
+          python -m tests.test_site
+
+      - name: Build site + feed
+        env:
+          SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
+        run: python build_site.py
+
+      - name: Commit data back (audit trail)
+        # The daily heartbeat line matters: GitHub disables scheduled
+        # workflows after 60 days without repo activity, and new filings can
+        # be months apart. One commit per day keeps the poller alive and
+        # doubles as a "last successfully checked" record.
+        run: |
+          date -u +%F > data/last_checked.txt
+          git config user.name "tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data out/transactions.json out/positions.json \
+                  out/assets.json out/holdings.json
+          git diff --cached --quiet || \
+            git commit -m "data: sync $(date -u +%F' '%H:%M) UTC" && git push
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
