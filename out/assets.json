@@ -1,0 +1,786 @@
+{
+ "11-zinfandel-lane-home-vineyard": {
+  "asset_id": "11-zinfandel-lane-home-vineyard",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "real_property"
+  ],
+  "name_variants": [
+   "11 Zinfandel Lane - Home & Vineyard"
+  ],
+  "canonical_name": "11 Zinfandel Lane - Home & Vineyard"
+ },
+ "25-point-lobos-commercial-property": {
+  "asset_id": "25-point-lobos-commercial-property",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "real_property"
+  ],
+  "name_variants": [
+   "25 Point Lobos - Commercial Property"
+  ],
+  "canonical_name": "25 Point Lobos - Commercial Property"
+ },
+ "45-belden-place-four-story-commercial-building": {
+  "asset_id": "45-belden-place-four-story-commercial-building",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "real_property"
+  ],
+  "name_variants": [
+   "45 Belden Place - Four Story Commercial Building"
+  ],
+  "canonical_name": "45 Belden Place - Four Story Commercial Building"
+ },
+ "AAPL": {
+  "asset_id": "AAPL",
+  "ticker": "AAPL",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Apple Inc. (AAPL)",
+   "Apple Inc. - Common Stock (AAPL)"
+  ],
+  "canonical_name": "Apple Inc."
+ },
+ "AB": {
+  "asset_id": "AB",
+  "ticker": "AB",
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund",
+   "business_interest"
+  ],
+  "name_variants": [
+   "AllianceBernstein Holding L.P. Units (AB)"
+  ],
+  "canonical_name": "AllianceBernstein Holding L.P. Units"
+ },
+ "AMZN": {
+  "asset_id": "AMZN",
+  "ticker": "AMZN",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Amazon.com, Inc. (AMZN)",
+   "Amazon.com, Inc. - Common Stock (AMZN)"
+  ],
+  "canonical_name": "Amazon.com, Inc."
+ },
+ "AVGO": {
+  "asset_id": "AVGO",
+  "ticker": "AVGO",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Broadcom Inc. - Common Stock (AVGO)"
+  ],
+  "canonical_name": "Broadcom Inc."
+ },
+ "AXP": {
+  "asset_id": "AXP",
+  "ticker": "AXP",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "American Express Company (AXP)"
+  ],
+  "canonical_name": "American Express Company"
+ },
+ "BE": {
+  "asset_id": "BE",
+  "ticker": "BE",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Bloom Energy Corporation Class A Common Stock (BE)"
+  ],
+  "canonical_name": "Bloom Energy Corporation"
+ },
+ "CLNE": {
+  "asset_id": "CLNE",
+  "ticker": "CLNE",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Clean Energy Fuels Corp. (CLNE)"
+  ],
+  "canonical_name": "Clean Energy Fuels Corp."
+ },
+ "CMCSA": {
+  "asset_id": "CMCSA",
+  "ticker": "CMCSA",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Comcast Corporation - Class A (CMCSA)"
+  ],
+  "canonical_name": "Comcast Corporation"
+ },
+ "CRM": {
+  "asset_id": "CRM",
+  "ticker": "CRM",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Salesforce.com Inc (CRM)"
+  ],
+  "canonical_name": "Salesforce.com Inc"
+ },
+ "CRWD": {
+  "asset_id": "CRWD",
+  "ticker": "CRWD",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "CrowdStrike Holdings, Inc. - Class A (CRWD)"
+  ],
+  "canonical_name": "CrowdStrike Holdings, Inc."
+ },
+ "DBX": {
+  "asset_id": "DBX",
+  "ticker": "DBX",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Dropbox, Inc. - Class A (DBX)"
+  ],
+  "canonical_name": "Dropbox, Inc."
+ },
+ "DIS": {
+  "asset_id": "DIS",
+  "ticker": "DIS",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Walt Disney Company (DIS)"
+  ],
+  "canonical_name": "Walt Disney Company"
+ },
+ "GOOGL": {
+  "asset_id": "GOOGL",
+  "ticker": "GOOGL",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Alphabet Inc. - Class A (GOOGL)",
+   "Alphabet Inc. - Class A Common Stock (GOOGL)"
+  ],
+  "canonical_name": "Alphabet Inc."
+ },
+ "IBKR": {
+  "asset_id": "IBKR",
+  "ticker": "IBKR",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Interactive Brokers Group, Inc. (IBKR)"
+  ],
+  "canonical_name": "Interactive Brokers Group, Inc."
+ },
+ "INTC": {
+  "asset_id": "INTC",
+  "ticker": "INTC",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Intel Corporation - Common Stock (INTC)"
+  ],
+  "canonical_name": "Intel Corporation"
+ },
+ "MORN": {
+  "asset_id": "MORN",
+  "ticker": "MORN",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Morningstar, Inc. (MORN)"
+  ],
+  "canonical_name": "Morningstar, Inc."
+ },
+ "MSFT": {
+  "asset_id": "MSFT",
+  "ticker": "MSFT",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Microsoft Corporation (MSFT)"
+  ],
+  "canonical_name": "Microsoft Corporation"
+ },
+ "NFLX": {
+  "asset_id": "NFLX",
+  "ticker": "NFLX",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Netflix, Inc. (NFLX)"
+  ],
+  "canonical_name": "Netflix, Inc."
+ },
+ "NVDA": {
+  "asset_id": "NVDA",
+  "ticker": "NVDA",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "NVIDIA Corporation - Common Stock (NVDA)"
+  ],
+  "canonical_name": "NVIDIA Corporation"
+ },
+ "PANW": {
+  "asset_id": "PANW",
+  "ticker": "PANW",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Palo Alto Networks, Inc. (PANW)",
+   "Palo Alto Networks, Inc. - Common Stock (PANW)"
+  ],
+  "canonical_name": "Palo Alto Networks, Inc."
+ },
+ "PYPL": {
+  "asset_id": "PYPL",
+  "ticker": "PYPL",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "PayPal Holdings, Inc. (PYPL)",
+   "PayPal Holdings, Inc. - Common Stock (PYPL)"
+  ],
+  "canonical_name": "PayPal Holdings, Inc."
+ },
+ "QCOM": {
+  "asset_id": "QCOM",
+  "ticker": "QCOM",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "QUALCOMM Incorporated (QCOM)"
+  ],
+  "canonical_name": "QUALCOMM Incorporated"
+ },
+ "RBLX": {
+  "asset_id": "RBLX",
+  "ticker": "RBLX",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Roblox Corporation Class A (RBLX)"
+  ],
+  "canonical_name": "Roblox Corporation"
+ },
+ "SQ": {
+  "asset_id": "SQ",
+  "ticker": "SQ",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Block, Inc. Class A Common Stock, (SQ)"
+  ],
+  "canonical_name": "Block, Inc."
+ },
+ "T": {
+  "asset_id": "T",
+  "ticker": "T",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "AT&T Inc. (T)"
+  ],
+  "canonical_name": "AT&T Inc."
+ },
+ "TEM": {
+  "asset_id": "TEM",
+  "ticker": "TEM",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Tempus AI, Inc. - Class A Common Stock (TEM)"
+  ],
+  "canonical_name": "Tempus AI, Inc."
+ },
+ "V": {
+  "asset_id": "V",
+  "ticker": "V",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Visa Inc. (V)"
+  ],
+  "canonical_name": "Visa Inc."
+ },
+ "VSNT": {
+  "asset_id": "VSNT",
+  "ticker": "VSNT",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Versant Media Group, Inc. - Class A Common Stock (VSNT)"
+  ],
+  "canonical_name": "Versant Media Group, Inc."
+ },
+ "VST": {
+  "asset_id": "VST",
+  "ticker": "VST",
+  "is_security": true,
+  "instruments": [
+   "option",
+   "stock"
+  ],
+  "name_variants": [
+   "Vistra Corp. Common Stock (VST)"
+  ],
+  "canonical_name": "Vistra Corp."
+ },
+ "WBD": {
+  "asset_id": "WBD",
+  "ticker": "WBD",
+  "is_security": true,
+  "instruments": [
+   "stock"
+  ],
+  "name_variants": [
+   "Warner Bros. Discovery, Inc. - Series A (WBD)"
+  ],
+  "canonical_name": "Warner Bros. Discovery, Inc."
+ },
+ "aristotle-llc": {
+  "asset_id": "aristotle-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Aristotle LLC"
+  ],
+  "canonical_name": "Aristotle LLC"
+ },
+ "auberge-du-soleil": {
+  "asset_id": "auberge-du-soleil",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Auberge du Soleil"
+  ],
+  "canonical_name": "Auberge du Soleil"
+ },
+ "bank-of-america-checking-account": {
+  "asset_id": "bank-of-america-checking-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "Bank of America - Checking Account"
+  ],
+  "canonical_name": "Bank of America - Checking Account"
+ },
+ "borel-real-estate-company": {
+  "asset_id": "borel-real-estate-company",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Borel Real Estate Company"
+  ],
+  "canonical_name": "Borel Real Estate Company"
+ },
+ "city-car-services-llc": {
+  "asset_id": "city-car-services-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "City Car Services LLC"
+  ],
+  "canonical_name": "City Car Services LLC"
+ },
+ "city-national-bank-checking-account": {
+  "asset_id": "city-national-bank-checking-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "City National Bank - Checking Account"
+  ],
+  "canonical_name": "City National Bank - Checking Account"
+ },
+ "city-national-securities-brokerage-money-market-account": {
+  "asset_id": "city-national-securities-brokerage-money-market-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "City National Securities - Brokerage Money Market Account"
+  ],
+  "canonical_name": "City National Securities - Brokerage Money Market Account"
+ },
+ "congressional-credit-union-checking-account": {
+  "asset_id": "congressional-credit-union-checking-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "Congressional Credit Union - Checking Account"
+  ],
+  "canonical_name": "Congressional Credit Union - Checking Account"
+ },
+ "edi-associates": {
+  "asset_id": "edi-associates",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "EDI Associates"
+  ],
+  "canonical_name": "EDI Associates"
+ },
+ "financial-leasing-services": {
+  "asset_id": "financial-leasing-services",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Financial Leasing Services"
+  ],
+  "canonical_name": "Financial Leasing Services"
+ },
+ "forge-investments-llc": {
+  "asset_id": "forge-investments-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund"
+  ],
+  "name_variants": [
+   "Forge Investments, LLC"
+  ],
+  "canonical_name": "Forge Investments, LLC"
+ },
+ "forty-five-belden-corporation": {
+  "asset_id": "forty-five-belden-corporation",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Forty-Five Belden Corporation"
+  ],
+  "canonical_name": "Forty-Five Belden Corporation"
+ },
+ "global-ambassador-concierge-llc": {
+  "asset_id": "global-ambassador-concierge-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Global Ambassador Concierge LLC"
+  ],
+  "canonical_name": "Global Ambassador Concierge LLC"
+ },
+ "heritage-bank-checking-account": {
+  "asset_id": "heritage-bank-checking-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "Heritage Bank - Checking Account"
+  ],
+  "canonical_name": "Heritage Bank - Checking Account"
+ },
+ "matthews-international-mutual-fund": {
+  "asset_id": "matthews-international-mutual-fund",
+  "ticker": null,
+  "is_security": true,
+  "instruments": [
+   "mutual_fund",
+   "other_security"
+  ],
+  "name_variants": [
+   "Matthews International Mutual Fund"
+  ],
+  "canonical_name": "Matthews International Mutual Fund"
+ },
+ "nautilus-leasing-services": {
+  "asset_id": "nautilus-leasing-services",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Nautilus Leasing Services"
+  ],
+  "canonical_name": "Nautilus Leasing Services"
+ },
+ "nine-forty-five-battery-llc": {
+  "asset_id": "nine-forty-five-battery-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Nine Forty Five Battery LLC"
+  ],
+  "canonical_name": "Nine Forty Five Battery LLC"
+ },
+ "piatti-restaurant-company": {
+  "asset_id": "piatti-restaurant-company",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Piatti Restaurant Company"
+  ],
+  "canonical_name": "Piatti Restaurant Company"
+ },
+ "reof-xx-llc": {
+  "asset_id": "reof-xx-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund"
+  ],
+  "name_variants": [
+   "REOF XX, LLC"
+  ],
+  "canonical_name": "REOF XX, LLC"
+ },
+ "reof-xxi-llc": {
+  "asset_id": "reof-xxi-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund"
+  ],
+  "name_variants": [
+   "REOF XXI, LLC"
+  ],
+  "canonical_name": "REOF XXI, LLC"
+ },
+ "reof-xxii-llc": {
+  "asset_id": "reof-xxii-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund"
+  ],
+  "name_variants": [
+   "REOF XXII, LLC"
+  ],
+  "canonical_name": "REOF XXII, LLC"
+ },
+ "reof-xxv-llc": {
+  "asset_id": "reof-xxv-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund"
+  ],
+  "name_variants": [
+   "REOF XXV, LLC"
+  ],
+  "canonical_name": "REOF XXV, LLC"
+ },
+ "reof-xxvi-llc": {
+  "asset_id": "reof-xxvi-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund"
+  ],
+  "name_variants": [
+   "REOF XXVI, LLC"
+  ],
+  "canonical_name": "REOF XXVI, LLC"
+ },
+ "russell-ranch-llc": {
+  "asset_id": "russell-ranch-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Russell Ranch LLC"
+  ],
+  "canonical_name": "Russell Ranch LLC"
+ },
+ "stoneridge-llc": {
+  "asset_id": "stoneridge-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Stoneridge LLC"
+  ],
+  "canonical_name": "Stoneridge LLC"
+ },
+ "the-art-of-power-book-contract": {
+  "asset_id": "the-art-of-power-book-contract",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "intellectual_property"
+  ],
+  "name_variants": [
+   "The Art of Power Book Contract"
+  ],
+  "canonical_name": "The Art of Power Book Contract"
+ },
+ "thirteen-hundred-one-sansome-llc": {
+  "asset_id": "thirteen-hundred-one-sansome-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "business_interest"
+  ],
+  "name_variants": [
+   "Thirteen Hundred One Sansome LLC"
+  ],
+  "canonical_name": "Thirteen Hundred One Sansome LLC"
+ },
+ "tripath-technology-inc": {
+  "asset_id": "tripath-technology-inc",
+  "ticker": null,
+  "is_security": true,
+  "instruments": [
+   "stock_non_public"
+  ],
+  "name_variants": [
+   "Tripath Technology Inc. Common Stock"
+  ],
+  "canonical_name": "Tripath Technology Inc."
+ },
+ "u-s-bank-checking-account": {
+  "asset_id": "u-s-bank-checking-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "U.S. Bank - Checking Account"
+  ],
+  "canonical_name": "U.S. Bank - Checking Account"
+ },
+ "u-s-bank-pelosi-trust-checking-account": {
+  "asset_id": "u-s-bank-pelosi-trust-checking-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "U.S. Bank - Pelosi Trust Checking Account"
+  ],
+  "canonical_name": "U.S. Bank - Pelosi Trust Checking Account"
+ },
+ "wells-fargo-bank-checking-account": {
+  "asset_id": "wells-fargo-bank-checking-account",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "bank_account"
+  ],
+  "name_variants": [
+   "Wells Fargo Bank - Checking Account"
+  ],
+  "canonical_name": "Wells Fargo Bank - Checking Account"
+ }
+}

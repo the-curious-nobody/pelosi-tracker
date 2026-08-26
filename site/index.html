@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Overview · Pelosi Trading Record</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/atom+xml" title="New filings" href="feed.xml">
+<style>
+:root{--paper:#F4F6F1;--paper2:#ECEFE6;--ink:#1B241F;--mut:#5A665E;--rule:#C9CFC3;
+--ledger:#1E5B44;--ledger-t:#DCE7E0;--oxide:#8C3A2B;--oxide-t:#EFDCD5;--amber:#8F6A12;
+--amber-t:#F0E6C9;--low:#6B7570;--low-t:#E4E7E1;--bar:#E0E4D9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:15px/1.55 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--ledger)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.masthead{border-bottom:3px double var(--ink);padding:30px 0 20px}
+.eyebrow{font:500 11px/1 "IBM Plex Mono",ui-monospace,monospace;letter-spacing:.18em;
+color:var(--mut);text-transform:uppercase}
+h1{font:400 clamp(30px,4.5vw,44px)/1.1 "Libre Caslon Text",Georgia,serif;margin:.35em 0 .2em}
+.dek{max-width:62ch;color:var(--mut);margin:0}
+nav{display:flex;gap:26px;margin-top:22px}
+nav a{font:600 12px/1 "IBM Plex Mono",monospace;letter-spacing:.14em;color:var(--mut);
+text-decoration:none;text-transform:uppercase;padding:8px 0 10px;border-bottom:3px solid transparent}
+nav a.on{color:var(--ink);border-color:var(--ledger)}
+nav a:hover{color:var(--ink)}
+.strip{display:flex;flex-wrap:wrap;gap:8px 30px;padding:12px 0;border-bottom:1px solid var(--rule);
+font:13px "IBM Plex Mono",monospace;color:var(--mut)}
+.strip b{color:var(--ink);font-weight:600}
+h2{font:400 24px "Libre Caslon Text",Georgia,serif;margin:44px 0 6px}
+.sub{color:var(--mut);margin:0 0 16px;max-width:72ch}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{font:600 10.5px "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;
+text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);white-space:nowrap}
+table.sortable th{cursor:pointer}
+table.sortable th:hover{color:var(--ledger)}
+td{border-bottom:1px solid var(--rule);padding:10px;vertical-align:top}
+tbody tr:hover{background:#fdfdfb}
+td.num,td.mono{font-family:"IBM Plex Mono",monospace;font-size:12.5px;white-space:nowrap}
+.tick{font:600 13.5px "IBM Plex Mono",monospace}
+.aname{display:block;color:var(--mut);font-size:12px;max-width:26ch;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+.mut{color:var(--mut)}.nil{color:var(--mut)}
+.amt{min-width:170px}
+.bar{position:relative;height:7px;background:var(--bar);border-radius:2px;margin:4px 0 5px}
+.bar i{position:absolute;top:0;bottom:0;border-radius:2px;background:var(--ink)}
+.bar i.buy{background:var(--ledger)}.bar i.sell{background:var(--oxide)}
+.bar i.open{background:linear-gradient(90deg,currentColor 55%,transparent);color:var(--ink)}
+.bar i.buy.open{color:var(--ledger)}.bar i.sell.open{color:var(--oxide)}
+.amt-label{font:12px "IBM Plex Mono",monospace;color:var(--mut);white-space:nowrap}
+.bar i.exact{width:3px;background:var(--ink)}
+.exact-tag{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);
+border:1px solid var(--rule);border-radius:2px;padding:0 4px;margin-left:3px;cursor:help}
+sup.ub,sup.inf{color:var(--amber);font-weight:700;cursor:help}
+.chip{display:inline-block;padding:2px 8px;border-radius:3px;
+font:500 11px "IBM Plex Mono",monospace;white-space:nowrap}
+.act-buy{background:var(--ledger-t);color:var(--ledger)}
+.act-sell{background:var(--oxide-t);color:var(--oxide)}
+.act-gift{background:var(--oxide-t);color:var(--oxide);outline:1px dashed var(--oxide)}
+.act-ex{background:var(--paper2);color:var(--ink);outline:1px solid var(--rule)}
+.st-hold{background:var(--ledger-t);color:var(--ledger)}
+.st-done{background:var(--ledger);color:#fff}
+.st-closed{background:var(--ink);color:var(--paper)}
+.st-unk{background:var(--low-t);color:var(--low);outline:1px dashed var(--low)}
+.st-mid{background:var(--amber-t);color:var(--amber)}
+.conf-high{background:var(--ledger-t);color:var(--ledger)}
+.conf-medium{background:var(--amber-t);color:var(--amber)}
+.conf-low{background:var(--low-t);color:var(--low);outline:1px dashed var(--low)}
+.src{font:600 10.5px "IBM Plex Mono",monospace;border:1px solid var(--rule);border-radius:3px;
+padding:2px 6px;margin-right:5px;text-decoration:none;color:var(--ledger);white-space:nowrap}
+.src:hover{border-color:var(--ledger)}
+.src.ok{color:var(--ledger);border-color:var(--ledger)}
+.filter{font:13px "IBM Plex Mono",monospace;padding:7px 10px;border:1px solid var(--rule);
+border-radius:3px;background:#fff;width:260px;margin:0 0 12px}
+.filter:focus{outline:2px solid var(--ledger)}
+.manifesto{border:1px solid var(--ink);padding:22px 26px;margin:40px 0;background:var(--paper2)}
+.manifesto h2{margin:0 0 10px}
+.manifesto li{margin:7px 0;max-width:78ch}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:34px}
+.ledgerlist{list-style:none;padding:0;margin:8px 0;font:13.5px "IBM Plex Mono",monospace}
+.ledgerlist li{display:flex;justify-content:space-between;border-bottom:1px dotted var(--rule);padding:6px 0}
+details{margin:18px 0}
+summary{cursor:pointer;font:600 13px "IBM Plex Mono",monospace;letter-spacing:.06em;color:var(--mut)}
+.noterow td{border-bottom:1px solid var(--rule);color:var(--amber);font-size:12px;
+padding-top:0;font-family:"IBM Plex Mono",monospace}
+.glyph{font-size:17px;background:var(--paper2);border:1px solid var(--rule);padding:14px 18px;
+font-family:"IBM Plex Mono",monospace;border-radius:3px}
+footer{margin:60px 0 0;border-top:3px double var(--ink);padding:18px 0 40px;
+color:var(--mut);font-size:12.5px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:6px 34px}
+@media (max-width:720px){.wrap{padding:0 16px}.aname{max-width:16ch}}
+:focus-visible{outline:2px solid var(--ledger);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head>
+<body>
+<header class="masthead"><div class="wrap">
+<div class="eyebrow">United States House · Official Financial Disclosures</div>
+<h1>Nancy Pelosi — Trading Record</h1>
+<p class="dek">Every figure on this site is a disclosed statutory range from an
+official filing with the Clerk of the House. Nothing is modeled, averaged, or
+inferred — and everything links to its source document.</p>
+<nav><a href="index.html" class="on">Overview</a><a href="transactions.html" class="">Transactions</a><a href="holdings.html" class="">Holdings</a><a href="methodology.html" class="">Methodology</a></nav>
+</div></header>
+<div class="wrap"><div class="strip"><span><b>5</b> filings</span><span><b>37</b> transactions</span><span>trades <b>Dec 20, 2024</b> – <b>Jul 28, 2026</b></span><span>last filing <b>Aug 21, 2026</b></span><span>median PTR delay <b>24d</b></span><span>coverage through <b>Aug 21, 2026</b> · <b>1</b> known gap</span></div></div>
+<main class="wrap">
+<div class="cols" style="margin-top:34px">
+<div>
+<h2 style="margin-top:0">Latest disclosed activity</h2>
+<p class="sub">Most recent transactions across all ingested filings.
+<a href="transactions.html">Full record →</a></p>
+<table><thead><tr><th>Traded</th><th>Filed</th><th>Delay</th><th>Asset</th><th>Action</th><th>Details as filed</th><th>Amount (range)</th><th>Source</th></tr></thead><tbody><tr><td class="mono" data-v="2026-07-28">Jul 28, 2026</td><td class="mono" data-v="2026-08-21">Aug 21, 2026</td><td class="num" data-v="24">24d</td><td><span class="tick">BE</span><span class="aname" title="Bloom Energy Corporation Class A Common Stock (BE)">Bloom Energy Corporation Class A Common Stock (BE)</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Purchased 5,000 shares.">5,000 shares</span></td><td><div class="amt" data-v="500001"><div class="bar"><i class="buy" style="left:74.0%;width:3.9%"></i></div><span class="amt-label">$500,001–$1,000,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener" title="Filing 20035143 — official PDF, Clerk of the House">PTR ↗</a></td></tr><tr><td class="mono" data-v="2026-07-28">Jul 28, 2026</td><td class="mono" data-v="2026-08-21">Aug 21, 2026</td><td class="num" data-v="24">24d</td><td><span class="tick">BE</span><span class="aname" title="Bloom Energy Corporation Class A Common Stock (BE)">Bloom Energy Corporation Class A Common Stock (BE)</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Purchased 100 call options with a strike price of $100 and an expiration date of 6/17/27.">100 calls @ $100 · exp Jun 17, 2027</span></td><td><div class="amt" data-v="500001"><div class="bar"><i class="buy" style="left:74.0%;width:3.9%"></i></div><span class="amt-label">$500,001–$1,000,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener" title="Filing 20035143 — official PDF, Clerk of the House">PTR ↗</a></td></tr><tr><td class="mono" data-v="2026-07-27">Jul 27, 2026</td><td class="mono" data-v="2026-08-21">Aug 21, 2026</td><td class="num" data-v="25">25d</td><td><span class="tick">reof-xxv-llc</span><span class="aname" title="REOF XXV, LLC">REOF XXV, LLC</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Additional investment in LLC which is acquiring and restoring a luxury hotel property in San Francisco, CA."><span class="mut">—</span></span></td><td><div class="amt" data-v="500001"><div class="bar"><i class="buy" style="left:74.0%;width:3.9%"></i></div><span class="amt-label">$500,001–$1,000,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener" title="Filing 20035143 — official PDF, Clerk of the House">PTR ↗</a></td></tr><tr><td class="mono" data-v="2026-07-24">Jul 24, 2026</td><td class="mono" data-v="2026-08-21">Aug 21, 2026</td><td class="num" data-v="28">28d</td><td><span class="tick">BE</span><span class="aname" title="Bloom Energy Corporation Class A Common Stock (BE)">Bloom Energy Corporation Class A Common Stock (BE)</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Purchased 10,000 shares.">10,000 shares</span></td><td><div class="amt" data-v="1000001"><div class="bar"><i class="buy" style="left:77.9%;width:9.1%"></i></div><span class="amt-label">$1,000,001–$5,000,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener" title="Filing 20035143 — official PDF, Clerk of the House">PTR ↗</a></td></tr><tr><td class="mono" data-v="2026-07-24">Jul 24, 2026</td><td class="mono" data-v="2026-08-21">Aug 21, 2026</td><td class="num" data-v="28">28d</td><td><span class="tick">BE</span><span class="aname" title="Bloom Energy Corporation Class A Common Stock (BE)">Bloom Energy Corporation Class A Common Stock (BE)</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Purchased 100 call options with a strike price of $100 and an expiration date of 6/17/27.">100 calls @ $100 · exp Jun 17, 2027</span></td><td><div class="amt" data-v="1000001"><div class="bar"><i class="buy" style="left:77.9%;width:9.1%"></i></div><span class="amt-label">$1,000,001–$5,000,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener" title="Filing 20035143 — official PDF, Clerk of the House">PTR ↗</a></td></tr><tr><td class="mono" data-v="2026-07-24">Jul 24, 2026</td><td class="mono" data-v="2026-08-21">Aug 21, 2026</td><td class="num" data-v="28">28d</td><td><span class="tick">INTC</span><span class="aname" title="Intel Corporation - Common Stock (INTC)">Intel Corporation - Common Stock (INTC)</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Purchased 50 call options with a strike price of $50 and an expiration date of 6/17/27.">50 calls @ $50 · exp Jun 17, 2027</span></td><td><div class="amt" data-v="250001"><div class="bar"><i class="buy" style="left:70.1%;width:3.9%"></i></div><span class="amt-label">$250,001–$500,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener" title="Filing 20035143 — official PDF, Clerk of the House">PTR ↗</a></td></tr><tr><td class="mono" data-v="2026-07-24">Jul 24, 2026</td><td class="mono" data-v="2026-08-21">Aug 21, 2026</td><td class="num" data-v="28">28d</td><td><span class="tick">INTC</span><span class="aname" title="Intel Corporation - Common Stock (INTC)">Intel Corporation - Common Stock (INTC)</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Purchased 10,000 shares.">10,000 shares</span></td><td><div class="amt" data-v="500001"><div class="bar"><i class="buy" style="left:74.0%;width:3.9%"></i></div><span class="amt-label">$500,001–$1,000,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener" title="Filing 20035143 — official PDF, Clerk of the House">PTR ↗</a></td></tr><tr><td class="mono" data-v="2026-01-16">Jan 16, 2026</td><td class="mono" data-v="2026-01-23">Jan 23, 2026</td><td class="num" data-v="7">7d</td><td><span class="tick">AB</span><span class="aname" title="AllianceBernstein Holding L.P. Units (AB)">AllianceBernstein Holding L.P. Units (AB)</span></td><td><span class="chip act-buy">Purchase</span></td><td><span title="Purchased 25,000 shares.">25,000 shares</span></td><td><div class="amt" data-v="1000001"><div class="bar"><i class="buy" style="left:77.9%;width:9.1%"></i></div><span class="amt-label">$1,000,001–$5,000,000</span></div></td><td><a class="src" href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf" target="_blank" rel="noopener" title="Filing 20033725 — official PDF, Clerk of the House">PTR ↗</a></td></tr></tbody></table>
+</div>
+</div>
+<div class="cols">
+<div>
+<h2>Holdings snapshot</h2>
+<p class="sub">As of Aug 26, 2026 · <a href="holdings.html">full estimates →</a></p>
+
+<ul class="ledgerlist">
+<li><span>Stocks — likely held</span><b>23</b></li>
+<li><span>Stocks — closed at period end</span><b>3</b></li>
+<li><span>Option lots — likely held</span><b>6</b></li>
+<li><span>Option lots — exercised</span><b>8</b></li>
+<li><span>Option lots — expired, outcome undisclosed</span><b>0</b></li>
+<li><span>Other assets (LLCs, property, accounts)</span><b>35</b></li>
+</ul>
+</div>
+<div>
+<h2>Filings ingested</h2>
+<p class="sub">Official PDFs at the Clerk of the House.</p>
+<ul class="ledgerlist"><li><span><a href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf" target="_blank" rel="noopener">Periodic Transaction Report · #20026590</a></span><b>Jan 17, 2025</b></li><li><span><a href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033337.pdf" target="_blank" rel="noopener">Periodic Transaction Report · #20033337</a></span><b>Oct 24, 2025</b></li><li><span><a href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf" target="_blank" rel="noopener">Periodic Transaction Report · #20033725</a></span><b>Jan 23, 2026</b></li><li><span><a href="https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf" target="_blank" rel="noopener">Annual Report 2025 · #10075701</a></span><b>May 15, 2026</b></li><li><span><a href="https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf" target="_blank" rel="noopener">Periodic Transaction Report · #20035143</a></span><b>Aug 21, 2026</b></li></ul>
+<p class="sub" style="font-size:12.5px;margin-top:10px">
+<b>Known gap:</b> a report signed June&nbsp;23,&nbsp;2026 is missing from this
+record — its official PDF wasn’t retrievable, and this tracker won’t transcribe
+filings from news coverage. <a href="methodology.html">Why →</a></p>
+</div>
+</div>
+<div class="manifesto">
+<h2>What this tracker will not show you</h2>
+<ul>
+<li><b>Modeled profit &amp; loss.</b> Trade sizes are disclosed as ranges; a “+$310K gain” computed from range midpoints is fiction wearing a decimal point.</li>
+<li><b>Invented share balances.</b> We show disclosed movements (exact counts when filed) — never a running total the filings don’t support.</li>
+<li><b>Aggregator data.</b> Every row parses from an official Clerk PDF, linked beside it. Third-party trackers are used only to cross-check our parser.</li>
+<li><b>Unlabeled guesses.</b> Estimates carry a status, a confidence grade, and the evidence trail that produced them.</li>
+</ul>
+</div>
+</main>
+<footer><div class="wrap">
+<span>Source: Clerk of the U.S. House of Representatives — official filings only.</span>
+<span>Amounts are statutory disclosure ranges, not balances or prices.</span>
+<span>Built 2026-08-26 06:55 UTC · parser 0.1.0 · <a href="feed.xml">Atom feed</a></span>
+<span>Not investment advice. 5&nbsp;U.S.C.&nbsp;§13107 restricts commercial use of disclosure reports.</span>
+</div></footer>
+<script>
+document.querySelectorAll('table.sortable').forEach(t=>{
+ t.querySelectorAll('th').forEach((th,i)=>{
+  th.tabIndex=0;
+  const sort=()=>{
+   const tb=t.tBodies[0],rows=[...tb.rows],asc=th.dataset.asc!=='1';
+   t.querySelectorAll('th').forEach(h=>{delete h.dataset.asc;h.removeAttribute('aria-sort');});
+   th.dataset.asc=asc?'1':'0';th.setAttribute('aria-sort',asc?'ascending':'descending');
+   const val=r=>{const c=r.cells[i],d=c.querySelector('[data-v]')||c;
+    const v=(d.dataset&&d.dataset.v!==undefined?d.dataset.v:c.textContent.trim());
+    // only pure numbers sort numerically; ISO dates etc. compare as strings
+    return /^-?\d+(?:\.\d+)?$/.test(v)?parseFloat(v):v.toLowerCase();};
+   rows.sort((a,b)=>{const x=val(a),y=val(b);
+    if(typeof x!==typeof y)return (typeof x==='number'?-1:1)*(asc?1:-1);
+    return (x<y?-1:x>y?1:0)*(asc?1:-1);});
+   rows.forEach(r=>tb.appendChild(r));};
+  th.addEventListener('click',sort);
+  th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();sort();}});
+ });
+});
+document.querySelectorAll('.filter').forEach(inp=>{
+ const t=document.getElementById(inp.dataset.table);
+ inp.addEventListener('input',()=>{const q=inp.value.toLowerCase();
+  [...t.tBodies[0].rows].forEach(r=>r.hidden=!r.textContent.toLowerCase().includes(q));});
+});
+</script>
+</body></html>

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology · Pelosi Trading Record</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/atom+xml" title="New filings" href="feed.xml">
+<style>
+:root{--paper:#F4F6F1;--paper2:#ECEFE6;--ink:#1B241F;--mut:#5A665E;--rule:#C9CFC3;
+--ledger:#1E5B44;--ledger-t:#DCE7E0;--oxide:#8C3A2B;--oxide-t:#EFDCD5;--amber:#8F6A12;
+--amber-t:#F0E6C9;--low:#6B7570;--low-t:#E4E7E1;--bar:#E0E4D9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:15px/1.55 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--ledger)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.masthead{border-bottom:3px double var(--ink);padding:30px 0 20px}
+.eyebrow{font:500 11px/1 "IBM Plex Mono",ui-monospace,monospace;letter-spacing:.18em;
+color:var(--mut);text-transform:uppercase}
+h1{font:400 clamp(30px,4.5vw,44px)/1.1 "Libre Caslon Text",Georgia,serif;margin:.35em 0 .2em}
+.dek{max-width:62ch;color:var(--mut);margin:0}
+nav{display:flex;gap:26px;margin-top:22px}
+nav a{font:600 12px/1 "IBM Plex Mono",monospace;letter-spacing:.14em;color:var(--mut);
+text-decoration:none;text-transform:uppercase;padding:8px 0 10px;border-bottom:3px solid transparent}
+nav a.on{color:var(--ink);border-color:var(--ledger)}
+nav a:hover{color:var(--ink)}
+.strip{display:flex;flex-wrap:wrap;gap:8px 30px;padding:12px 0;border-bottom:1px solid var(--rule);
+font:13px "IBM Plex Mono",monospace;color:var(--mut)}
+.strip b{color:var(--ink);font-weight:600}
+h2{font:400 24px "Libre Caslon Text",Georgia,serif;margin:44px 0 6px}
+.sub{color:var(--mut);margin:0 0 16px;max-width:72ch}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{font:600 10.5px "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;
+text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);white-space:nowrap}
+table.sortable th{cursor:pointer}
+table.sortable th:hover{color:var(--ledger)}
+td{border-bottom:1px solid var(--rule);padding:10px;vertical-align:top}
+tbody tr:hover{background:#fdfdfb}
+td.num,td.mono{font-family:"IBM Plex Mono",monospace;font-size:12.5px;white-space:nowrap}
+.tick{font:600 13.5px "IBM Plex Mono",monospace}
+.aname{display:block;color:var(--mut);font-size:12px;max-width:26ch;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+.mut{color:var(--mut)}.nil{color:var(--mut)}
+.amt{min-width:170px}
+.bar{position:relative;height:7px;background:var(--bar);border-radius:2px;margin:4px 0 5px}
+.bar i{position:absolute;top:0;bottom:0;border-radius:2px;background:var(--ink)}
+.bar i.buy{background:var(--ledger)}.bar i.sell{background:var(--oxide)}
+.bar i.open{background:linear-gradient(90deg,currentColor 55%,transparent);color:var(--ink)}
+.bar i.buy.open{color:var(--ledger)}.bar i.sell.open{color:var(--oxide)}
+.amt-label{font:12px "IBM Plex Mono",monospace;color:var(--mut);white-space:nowrap}
+.bar i.exact{width:3px;background:var(--ink)}
+.exact-tag{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);
+border:1px solid var(--rule);border-radius:2px;padding:0 4px;margin-left:3px;cursor:help}
+sup.ub,sup.inf{color:var(--amber);font-weight:700;cursor:help}
+.chip{display:inline-block;padding:2px 8px;border-radius:3px;
+font:500 11px "IBM Plex Mono",monospace;white-space:nowrap}
+.act-buy{background:var(--ledger-t);color:var(--ledger)}
+.act-sell{background:var(--oxide-t);color:var(--oxide)}
+.act-gift{background:var(--oxide-t);color:var(--oxide);outline:1px dashed var(--oxide)}
+.act-ex{background:var(--paper2);color:var(--ink);outline:1px solid var(--rule)}
+.st-hold{background:var(--ledger-t);color:var(--ledger)}
+.st-done{background:var(--ledger);color:#fff}
+.st-closed{background:var(--ink);color:var(--paper)}
+.st-unk{background:var(--low-t);color:var(--low);outline:1px dashed var(--low)}
+.st-mid{background:var(--amber-t);color:var(--amber)}
+.conf-high{background:var(--ledger-t);color:var(--ledger)}
+.conf-medium{background:var(--amber-t);color:var(--amber)}
+.conf-low{background:var(--low-t);color:var(--low);outline:1px dashed var(--low)}
+.src{font:600 10.5px "IBM Plex Mono",monospace;border:1px solid var(--rule);border-radius:3px;
+padding:2px 6px;margin-right:5px;text-decoration:none;color:var(--ledger);white-space:nowrap}
+.src:hover{border-color:var(--ledger)}
+.src.ok{color:var(--ledger);border-color:var(--ledger)}
+.filter{font:13px "IBM Plex Mono",monospace;padding:7px 10px;border:1px solid var(--rule);
+border-radius:3px;background:#fff;width:260px;margin:0 0 12px}
+.filter:focus{outline:2px solid var(--ledger)}
+.manifesto{border:1px solid var(--ink);padding:22px 26px;margin:40px 0;background:var(--paper2)}
+.manifesto h2{margin:0 0 10px}
+.manifesto li{margin:7px 0;max-width:78ch}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:34px}
+.ledgerlist{list-style:none;padding:0;margin:8px 0;font:13.5px "IBM Plex Mono",monospace}
+.ledgerlist li{display:flex;justify-content:space-between;border-bottom:1px dotted var(--rule);padding:6px 0}
+details{margin:18px 0}
+summary{cursor:pointer;font:600 13px "IBM Plex Mono",monospace;letter-spacing:.06em;color:var(--mut)}
+.noterow td{border-bottom:1px solid var(--rule);color:var(--amber);font-size:12px;
+padding-top:0;font-family:"IBM Plex Mono",monospace}
+.glyph{font-size:17px;background:var(--paper2);border:1px solid var(--rule);padding:14px 18px;
+font-family:"IBM Plex Mono",monospace;border-radius:3px}
+footer{margin:60px 0 0;border-top:3px double var(--ink);padding:18px 0 40px;
+color:var(--mut);font-size:12.5px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:6px 34px}
+@media (max-width:720px){.wrap{padding:0 16px}.aname{max-width:16ch}}
+:focus-visible{outline:2px solid var(--ledger);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head>
+<body>
+<header class="masthead"><div class="wrap">
+<div class="eyebrow">United States House · Official Financial Disclosures</div>
+<h1>Nancy Pelosi — Trading Record</h1>
+<p class="dek">Every figure on this site is a disclosed statutory range from an
+official filing with the Clerk of the House. Nothing is modeled, averaged, or
+inferred — and everything links to its source document.</p>
+<nav><a href="index.html" class="">Overview</a><a href="transactions.html" class="">Transactions</a><a href="holdings.html" class="">Holdings</a><a href="methodology.html" class="on">Methodology</a></nav>
+</div></header>
+<div class="wrap"><div class="strip"><span><b>5</b> filings</span><span><b>37</b> transactions</span><span>trades <b>Dec 20, 2024</b> – <b>Jul 28, 2026</b></span><span>last filing <b>Aug 21, 2026</b></span><span>median PTR delay <b>24d</b></span><span>coverage through <b>Aug 21, 2026</b> · <b>1</b> known gap</span></div></div>
+<main class="wrap">
+<h2>Methodology</h2>
+<p class="sub">The pipeline and its rules, in the open.</p>
+
+<h2 style="font-size:20px">Sources</h2>
+<p>Only official filings from the Clerk of the U.S. House of Representatives:
+Periodic Transaction Reports (PTRs, required within 30–45 days of a trade
+under the STOCK Act) and Annual Financial Disclosure reports (Schedule&nbsp;A
+holdings, Schedule&nbsp;B transactions). The poller diffs the Clerk’s yearly
+index and fetches new documents directly; every parsed row stores its filing
+ID and source URL.</p>
+
+<h2 style="font-size:20px">Confirmed vs. estimated</h2>
+<p><b>Transactions are parsed facts</b> — dates, statutory amount ranges, and
+the filed description, including option lots (contracts / strike / expiry),
+exercises, and charitable gifts, which the forms encode only in prose.
+<b>Holdings are estimates</b>: an annual-report baseline advanced by each
+disclosed transaction. Statuses: <i>Likely Held · Partially Sold · Closed ·
+Exercised · Reached expiration, outcome undisclosed</i>. Confidence:
+<span class="chip conf-high">high</span> <span class="chip conf-medium">medium</span>
+<span class="chip conf-low">low</span> — degraded automatically as evidence
+ages. Share balances are never computed; only disclosed movements are shown.</p>
+
+<h2 style="font-size:20px">Two dates, one delay</h2>
+<p>Every transaction carries its trade date and its filing date; the gap is
+the disclosure delay. When a transaction is known only from an annual report,
+the delay is flagged <sup class="ub">^</sup> as an upper bound rather than
+passed off as the real lag.</p>
+
+<h2 style="font-size:20px">Amounts are buckets</h2>
+<div class="cols"><div>
+<p>Congress discloses dollar figures only as these statutory ranges — so
+that’s what we render, as bars on a log scale. If a page break truncates a
+filed range, the upper bound is restored from this table and marked
+<sup class="inf">*</sup>.</p></div>
+<div><table style="max-width:280px"><thead><tr><th>Statutory ranges</th></tr></thead>
+<tbody><tr><td class="mono">$1–$1,000</td></tr><tr><td class="mono">$1,001–$15,000</td></tr><tr><td class="mono">$15,001–$50,000</td></tr><tr><td class="mono">$50,001–$100,000</td></tr><tr><td class="mono">$100,001–$250,000</td></tr><tr><td class="mono">$250,001–$500,000</td></tr><tr><td class="mono">$500,001–$1,000,000</td></tr><tr><td class="mono">$1,000,001–$5,000,000</td></tr><tr><td class="mono">$5,000,001–$25,000,000</td></tr><tr><td class="mono">$25,000,001–$50,000,000</td></tr><tr><td class="mono">$50,000,000+</td></tr></tbody></table></div></div>
+
+<h2 style="font-size:20px">Duplicates &amp; amendments</h2>
+<p>The same trade often appears in a PTR and again in the annual report’s
+Schedule&nbsp;B. Rows are merged on (date, asset, type, amount, owner); the
+PTR is the base record, every source is kept in the provenance trail, and
+corroborated rows are marked ✓. Amended filings supersede originals without
+erasing them.</p>
+
+<h2 style="font-size:20px">A small decoding story</h2>
+<p>The Clerk’s e-filing template renders its labels in a custom font that maps
+lowercase letters to Unicode IPA glyphs (U+0283–U+029C). Extracted text
+looks like this:</p>
+<p class="glyph">ʆʇʕʅʔʋʒʖʋʑʐ: &nbsp;→&nbsp; description:</p>
+<p>We translate the cipher instead of guessing around it, so parsing is
+identical across PDF extractors — and asset names never bleed into
+description text.</p>
+
+<h2 style="font-size:20px">Known gaps</h2>
+<p>One periodic report signed June&nbsp;23,&nbsp;2026 is <b>not ingested</b>:
+its official PDF could not be retrieved, and this pipeline does not accept
+secondary reporting as a source, so trades disclosed only there are missing
+from this record rather than transcribed from news coverage. Paper-filed
+(scanned) reports route to an OCR path that is stubbed, not built. When
+something isn’t known, the site says so instead of smoothing over it.</p>
+
+<h2 style="font-size:20px">Legal</h2>
+<p>Financial disclosure reports may not be used for commercial purposes
+(5&nbsp;U.S.C.&nbsp;§13107, with a news-media exception). This tracker is a
+free public-interest resource and not investment advice.</p>
+</main>
+<footer><div class="wrap">
+<span>Source: Clerk of the U.S. House of Representatives — official filings only.</span>
+<span>Amounts are statutory disclosure ranges, not balances or prices.</span>
+<span>Built 2026-08-26 06:55 UTC · parser 0.1.0 · <a href="feed.xml">Atom feed</a></span>
+<span>Not investment advice. 5&nbsp;U.S.C.&nbsp;§13107 restricts commercial use of disclosure reports.</span>
+</div></footer>
+<script>
+document.querySelectorAll('table.sortable').forEach(t=>{
+ t.querySelectorAll('th').forEach((th,i)=>{
+  th.tabIndex=0;
+  const sort=()=>{
+   const tb=t.tBodies[0],rows=[...tb.rows],asc=th.dataset.asc!=='1';
+   t.querySelectorAll('th').forEach(h=>{delete h.dataset.asc;h.removeAttribute('aria-sort');});
+   th.dataset.asc=asc?'1':'0';th.setAttribute('aria-sort',asc?'ascending':'descending');
+   const val=r=>{const c=r.cells[i],d=c.querySelector('[data-v]')||c;
+    const v=(d.dataset&&d.dataset.v!==undefined?d.dataset.v:c.textContent.trim());
+    // only pure numbers sort numerically; ISO dates etc. compare as strings
+    return /^-?\d+(?:\.\d+)?$/.test(v)?parseFloat(v):v.toLowerCase();};
+   rows.sort((a,b)=>{const x=val(a),y=val(b);
+    if(typeof x!==typeof y)return (typeof x==='number'?-1:1)*(asc?1:-1);
+    return (x<y?-1:x>y?1:0)*(asc?1:-1);});
+   rows.forEach(r=>tb.appendChild(r));};
+  th.addEventListener('click',sort);
+  th.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();sort();}});
+ });
+});
+document.querySelectorAll('.filter').forEach(inp=>{
+ const t=document.getElementById(inp.dataset.table);
+ inp.addEventListener('input',()=>{const q=inp.value.toLowerCase();
+  [...t.tBodies[0].rows].forEach(r=>r.hidden=!r.textContent.toLowerCase().includes(q));});
+});
+</script>
+</body></html>

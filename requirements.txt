@@ -1,0 +1,8 @@
+# Core parsing + tests: Python 3.11+ stdlib only — nothing to install.
+#
+# Live ingestion extras (pelosi_tracker/ingest.py):
+#   - PDF text extraction uses `pdftotext -layout` (poppler-utils) when
+#     available, falling back to pdfplumber:
+pdfplumber>=0.11 ; extra == "ingest"
+# Standard library urllib is used for HTTP (no requests dependency), so the
+# poller runs on a bare Python install behind any egress proxy.

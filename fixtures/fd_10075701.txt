@@ -1,0 +1,457 @@
+F D R
+Clerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515
+F I
+Name: Hon. Nancy Pelosi
+Status: Member
+State/District: CA11
+F I
+Filing Type: Annual Report
+Filing Year: 2025
+Filing Date: 05/15/2026
+S A: A  "U" I
+Asset Owner Value of Asset Income Type(s) Income Tx. >
+$1,000?
+11 Zinfandel Lane - Home & Vineyard [RP] JT $5,000,001 -
+$25,000,000
+Grape Sales $100,001 -
+$1,000,000
+L: St. Helena/Napa, CA, US
+25 Point Lobos - Commercial Property [RP] SP $5,000,001 -
+$25,000,000
+Rent $100,001 -
+$1,000,000
+L: San Francisco/San Francisco, CA, US
+45 Belden Place - Four Story Commercial Building
+[RP]
+SP $5,000,001 -
+$25,000,000
+Rent $100,001 -
+$1,000,000
+L: San Francisco/San Francisco, CA, US
+AllianceBernstein Holding L.P. Units (AB) [OL] SP $1,000,001 -
+$5,000,000
+Partnership
+Income
+$50,001 - $100,000
+L: New York, NY, US
+D: Limited partnership in a global asset management firm providing investment management and research services worldwide to
+institutional, high-net-worth and retail investors.
+Alphabet Inc. - Class A (GOOGL) [ST] SP $5,000,001 -
+$25,000,000
+Dividends $50,001 - $100,000
+Alphabet Inc. - Class A Common Stock (GOOGL)
+[OP]
+SP $1,000,001 -
+$5,000,000
+None
+D: 50 call options with a strike price of $150 and an expiration date of 1/16/26 and 20 call options with a strike price of $150 and an
+Filing ID #10075701
+Asset Owner Value of Asset Income Type(s) Income Tx. >
+$1,000?
+expiration date of 1/15/27.
+Amazon.com, Inc. (AMZN) [ST] SP $5,000,001 -
+$25,000,000
+Capital Gains $1,000,001 -
+$5,000,000
+Amazon.com, Inc. - Common Stock (AMZN) [OP] SP $500,001 -
+$1,000,000
+None
+D: 50 call options with a strike price of $150 and an expiration date of 1/16/26 and 20 call options with a strike price of $120 and an
+expiration date of 1/15/27.
+American Express Company (AXP) [ST] SP $1,000,001 -
+$5,000,000
+Dividends $15,001 - $50,000
+Apple Inc. (AAPL) [ST] SP $5,000,001 -
+$25,000,000
+Capital Gains,
+Dividends
+Over $5,000,000
+Apple Inc. - Common Stock (AAPL) [OP] SP $250,001 -
+$500,000
+None
+D: 20 call options with a strike price of $100 and an expiration date of 1/15/27.
+Aristotle LLC [OL] SP $15,001 - $50,000 None
+L: San Francisco/San Francisco, CA, US
+D: Limited partnership investment in Aristotle Publishing, Inc.
+AT&T Inc. (T) [ST] SP $100,001 -
+$250,000
+Dividends $5,001 - $15,000
+Auberge du Soleil [OL] SP $5,000,001 -
+$25,000,000
+Partnership Loss $2,501 - $5,000
+L: Rutherford/Napa, CA, US
+D: Limited partnership investment in resort hotel.
+Bank of America - Checking Account [BA] SP $1,001 - $15,000 None
+D: San Francisco, CA
+Bank of America - Checking Account [BA] JT $1,001 - $15,000 None
+D: San Francisco, CA
+Bank of America - Checking Account [BA] SP None None
+D: Washington, DC
+Block, Inc. Class A Common Stock, (SQ) [ST] SP $250,001 -
+$500,000
+None
+Asset Owner Value of Asset Income Type(s) Income Tx. >
+$1,000?
+Borel Real Estate Company [OL] SP $15,001 - $50,000 Partnership
+Income, Rent
+$1,001 - $2,500
+L: San Mateo/San Mateo, CA, US
+D: Limited partnership interest in shopping center.
+Broadcom Inc. - Common Stock (AVGO) [ST] SP $5,000,001 -
+$25,000,000
+Dividends $15,001 - $50,000
+Broadcom Inc. - Common Stock (AVGO) [OP] SP None None
+D: 200 call options with a strike price of $80 and an expiration date of 6/20/25.
+City Car Services LLC [OL] SP $50,001 -
+$100,000
+None
+L: Hingham/Plymouth, MA, US
+D: Limited partnership investment in limousine company.
+City National Bank - Checking Account [BA] SP None Interest $1 - $200
+D: San Francisco, CA
+City National Securities - Brokerage Money Market
+Account [BA]
+SP None Interest $1 - $200
+Clean Energy Fuels Corp. (CLNE) [ST] SP $1,001 - $15,000 None
+Comcast Corporation - Class A (CMCSA) [ST] SP $500,001 -
+$1,000,000
+Dividends $15,001 - $50,000
+Congressional Credit Union - Checking Account [BA] $250,001 -
+$500,000
+None
+D: Washington, DC
+CrowdStrike Holdings, Inc. - Class A (CRWD) [ST] SP $1,000,001 -
+$5,000,000
+None
+Dropbox, Inc. - Class A (DBX) [ST] SP $250,001 -
+$500,000
+None
+EDI Associates [OL] SP $250,001 -
+$500,000
+Partnership
+Income
+$5,001 - $15,000
+L: Sonoma/Sonoma, CA, US
+D: Limited partnership investment in El Dorado Hotel.
+Financial Leasing Services [OL] SP $100,001 - None
+Asset Owner Value of Asset Income Type(s) Income Tx. >
+$1,000?
+$250,000
+L: San Francisco/San Francisco, CA, US
+D: Investment consulting company.
+Forge Investments, LLC [AB] SP $1,000,001 -
+$5,000,000
+None
+D: Investment in fund that owns Databricks stock. Databricks is a San Francisco engineering and analytic software company based on
+AI technology.
+Forty-Five Belden Corporation [OL] SP $1,000,001 -
+$5,000,000
+Partnership Loss $50,001 - $100,000
+L: San Francisco/San Francisco, CA, US
+D: Investment management company.
+Global Ambassador Concierge LLC [OL] SP $15,001 - $50,000 None
+L: Washington, DC, US
+D: Limited partnership interest in concierge services for international travelers.
+Heritage Bank - Checking Account [BA] SP $15,001 - $50,000 Interest $1 - $200
+Interactive Brokers Group, Inc. (IBKR) [ST] SP $500,001 -
+$1,000,000
+Dividends $2,501 - $5,000
+Matthews International Mutual Fund [MF] SP None Capital Loss $15,001 - $50,000
+Microsoft Corporation (MSFT) [ST] SP $5,000,001 -
+$25,000,000
+Dividends $50,001 - $100,000
+Morningstar, Inc. (MORN) [ST] SP $100,001 -
+$250,000
+Dividends $1,001 - $2,500
+Nautilus Leasing Services [OL] SP $50,001 -
+$100,000
+None
+L: San Francisco/San Francisco, CA, US
+D: Container leasing company.
+Netflix, Inc. (NFLX) [ST] SP $1,000,001 -
+$5,000,000
+None
+Nine Forty Five Battery LLC [OL] SP $5,000,001 -
+$25,000,000
+Partnership
+Income
+$1,000,001 -
+$5,000,000
+L: San Francisco/San Francisco, CA, US
+D: General partner in 945 Battery Street office building.
+Asset Owner Value of Asset Income Type(s) Income Tx. >
+$1,000?
+NVIDIA Corporation - Common Stock (NVDA) [ST] SP $5,000,001 -
+$25,000,000
+Capital Gains,
+Dividends
+$1,000,001 -
+$5,000,000
+NVIDIA Corporation - Common Stock (NVDA) [OP] SP $500,001 -
+$1,000,000
+None
+D: 50 call options with a strike price of $80 and an expiration date of 1/16/26 and 20 call options with a strike price of $100 and an
+expiration date of 1/15/27.
+Palo Alto Networks, Inc. - Common Stock (PANW)
+[ST]
+SP $1,000,001 -
+$5,000,000
+None
+PayPal Holdings, Inc. (PYPL) [ST] SP None Dividends, Capital
+Loss
+$100,001 -
+$1,000,000
+Piatti Restaurant Company [OL] SP $1,000,001 -
+$5,000,000
+Partnership Loss $50,001 - $100,000
+L: Tiburon/Marin, CA, US
+D: Limited partnership investment in restaurant company.
+QUALCOMM Incorporated (QCOM) [ST] SP $15,001 - $50,000 Dividends $201 - $1,000
+REOF XX, LLC [AB] SP $100,001 -
+$250,000
+Partnership Loss $15,001 - $50,000
+D: Investment in LLC which acquired five Courtyard Marriott hotels located in Fairfax, VA (one), suburban Baltimore, MD (two), and
+San Antonio, TX (two).
+REOF XXI, LLC [AB] SP $100,001 -
+$250,000
+Partnership Loss $100,001 -
+$1,000,000
+D: Investment in LLC which is acquiring three unique office buildings with a common address of 222 Kearny Street in San Francisco,
+CA.
+REOF XXII, LLC [AB] SP $100,001 -
+$250,000
+Partnership Loss $5,001 - $15,000
+D: Investment in LLC which is acquiring eleven Marriott-branded hotels (Rogers, AR - 1, Phoenix, AZ - 1, Lakeland, FL -1, Albany, GA
+- 1, Andover, MA - 1, Fayetteville, NC - 1, Greenville, SC - 1, Johnson City, TN - 1, Beaumont, TX - 1, Richmond, VA - 1, Vancouver, WA - 1) and
+nine Hilton-branded hotels (Montgomery, AL -2, Schaumberg, IL -1, Jackson, TN - 1, Allen, TX -2, Burleson, TX - 1, El Paso, TX - 1, Irving, TX -
+1).
+REOF XXV, LLC [AB] SP $500,001 -
+$1,000,000
+None
+D: Investment in LLC which is acquiring and restoring a luxury hotel property in San Francisco, CA.
+REOF XXVI, LLC [AB] SP $250,001 -
+$500,000
+Partnership
+Income
+$15,001 - $50,000
+D: Investment in LLC which is acquiring and managing a commercial office property at 631 Howard Street in San Francisco, CA.
+Asset Owner Value of Asset Income Type(s) Income Tx. >
+$1,000?
+Roblox Corporation Class A (RBLX) [ST] SP $250,001 -
+$500,000
+None
+Russell Ranch LLC [OL] SP $1,000,001 -
+$5,000,000
+Partnership Loss $2,501 - $5,000
+L: Sacramento/Sacramento, CA, US
+D: Limited partner in undeveloped residential real estate investment.
+Salesforce.com Inc (CRM) [ST] SP $5,000,001 -
+$25,000,000
+Dividends $15,001 - $50,000
+Stoneridge LLC [OL] SP $250,001 -
+$500,000
+Partnership Loss $201 - $1,000
+L: Sacramento/Sacramento, CA, US
+D: Limited partner in undeveloped residential real estate investment.
+Tempus AI, Inc. - Class A Common Stock (TEM)
+[OP]
+SP $100,001 -
+$250,000
+None
+D: 50 call options with a strike price of $20 and an expiration date of 1/16/26.
+The Art of Power Book Contract [IP] Undetermined Royalties $100,001 -
+$1,000,000
+D: The Art of Power published by Simon & Schuster.
+Thirteen Hundred One Sansome LLC [OL] SP $5,000,001 -
+$25,000,000
+Partnership Loss,
+Rent
+$15,001 - $50,000
+L: San Francisco/San Francisco, CA, US
+D: General partner in 1301 Sansome Street office building.
+Tripath Technology Inc. Common Stock [PS] SP $1 - $1,000 None
+D: Common stock not actively traded.
+U.S. Bank - Checking Account [BA] SP $1,001 - $15,000 None
+D: San Francisco, CA
+U.S. Bank - Pelosi Trust Checking Account [BA] SP $1 - $1,000 Interest $1 - $200
+D: San Francisco, CA
+Visa Inc. (V) [ST] SP $5,000,001 -
+$25,000,000
+Dividends $15,001 - $50,000
+Vistra Corp. Common Stock (VST) [OP] SP $500,001 -
+$1,000,000
+None
+Asset Owner Value of Asset Income Type(s) Income Tx. >
+$1,000?
+D: 50 call options with a strike price of $50 and an expiration date of 1/16/26.
+Walt Disney Company (DIS) [ST] SP None Dividends, Capital
+Loss
+$100,001 -
+$1,000,000
+Warner Bros. Discovery, Inc. - Series A (WBD) [ST] SP $50,001 -
+$100,000
+None
+Wells Fargo Bank - Checking Account [BA] JT $15,001 - $50,000 None
+D: San Francisco, CA
+* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.
+S B: T
+Asset Owner Date Tx.
+Type
+Amount Cap.
+Gains >
+$200?
+Vistra Corp. Common Stock (VST) [OP] SP 01/14/2025 P $500,001 -
+$1,000,000
+D: Purchased 50 call options with a strike price of $50 and an expiration date of 1/16/26.
+Tempus AI, Inc. - Class A Common Stock (TEM) [OP] SP 01/14/2025 P $50,001 -
+$100,000
+D: Purchased 50 call options with a strike price of $20 and an expiration date of 1/16/26.
+Amazon.com, Inc. - Common Stock (AMZN) [OP] SP 01/14/2025 P $250,001 -
+$500,000
+D: Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.
+Alphabet Inc. - Class A Common Stock (GOOGL) [OP] SP 01/14/2025 P $250,001 -
+$500,000
+D: Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.
+NVIDIA Corporation - Common Stock (NVDA) [OP] SP 01/14/2025 P $250,001 -
+$500,000
+D: Purchased 50 call options with a strike price of $80 and an expiration date of 1/16/26.
+Matthews International Mutual Fund [OT] SP 06/20/2025 S $15,001 - $50,000
+L: US
+D: Sale of 2,822 units.
+C: Loss of $28,948 on sale.
+Broadcom Inc. - Common Stock (AVGO) [ST] SP 06/20/2025 P $1,000,001 -
+Asset Owner Date Tx.
+Type
+Amount Cap.
+Gains >
+$200?
+D: Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.
+Apple Inc. - Common Stock (AAPL) [ST] SP 10/22/2025 S
+(partial)
+$100,001 -
+$250,000
+D: Contribution of 382 shares held personally to Trinity University in Washington, DC.
+Apple Inc. - Common Stock (AAPL) [ST] SP 12/24/2025 S
+(partial)
+$5,000,001 -
+$25,000,000
+D: Sold 45,000 shares.
+NVIDIA Corporation - Common Stock (NVDA) [ST] SP 12/24/2025 S
+(partial)
+$1,000,001 -
+$5,000,000
+D: Sold 20,000 shares.
+Amazon.com, Inc. - Common Stock (AMZN) [ST] SP 12/24/2025 S
+(partial)
+$1,000,001 -
+$5,000,000
+D: Sold 20,000 shares.
+Walt Disney Company (DIS) [ST] SP 12/30/2025 S $1,000,001 -
+$5,000,000
+D: Sold 10,000 shares.
+PayPal Holdings, Inc. - Common Stock (PYPL) [ST] SP 12/30/2025 S $250,001 -
+$500,000
+D: Sold 5,000 shares.
+Alphabet Inc. - Class A Common Stock (GOOGL) [ST] SP 12/30/2025 S
+(partial)
+$1,000,001 -
+$5,000,000
+D: Contribution of 7,704 shares held personally to Donor-Advised Fund.
+Apple Inc. - Common Stock (AAPL) [ST] SP 12/30/2025 S
+(partial)
+$5,000,001 -
+$25,000,000
+D: Contribution of 28,200 shares to Donor-Advised Fund.
+NVIDIA Corporation - Common Stock (NVDA) [OP] SP 12/30/2025 P $100,001 -
+$250,000
+D: Purchased 20 call options with a strike price of $100 and an expiration date of 1/15/27.
+Amazon.com, Inc. - Common Stock (AMZN) [OP] SP 12/30/2025 P $100,001 -
+$250,000
+D: Purchased 20 call options with a strike price of $120 and an expiration date of 1/15/27.
+Apple Inc. - Common Stock (AAPL) [OP] SP 12/30/2025 P $250,001 -
+$500,000
+Asset Owner Date Tx.
+Type
+Amount Cap.
+Gains >
+$200?
+D: Purchased 20 call options with a strike price of $100 and an expiration date of 1/15/27.
+Alphabet Inc. - Class A Common Stock (GOOGL) [OP] SP 12/30/2025 P $250,001 -
+$500,000
+D: Purchased 20 call options with a strike price of $150 and an expiration date of 1/15/27.
+* For the complete list of asset type abbreviations, please visit https://fd.house.gov/reference/asset-type-codes.aspx.
+S C: E I
+Source Type Amount
+Financial Leasing Services Spouse Salary N/A
+45 Belden Corporation Spouse Management Fee N/A
+Fairfield Associates Spouse Management Fee N/A
+S D: L
+Owner Creditor Date Incurred Type Amount of
+Liability
+JT Union Bank of California September 2016 Mortgage on 11 Zinfandel Lane, St. Helena,
+CA
+$5,000,001 -
+$25,000,000
+SP Union Bank of California December 2017 Mortgage on 45 Belden Place, San
+Francisco, CA
+$1,000,001 -
+$5,000,000
+SP Wells Fargo Bank June 2017 Mortgage on 25 Point Lobos Avenue, San
+Francisco, CA
+$1,000,001 -
+$5,000,000
+SP Union Bank of California July 2002 Equity Line of Credit on 11 Zinfandel Lane,
+St. Helena, CA
+$500,001 -
+$1,000,000
+SP City National Bank July 2011 Brokerage Collateral Loan $1,000,001 -
+$5,000,000
+JT Union Bank of California September 2007 Mortgage on 2640 Broadway, San
+Francisco, CA
+$1,000,001 -
+$5,000,000
+SP Bank of America November 2006 Mortgage on 3030 K Street, Washington,
+DC
+$1,000,001 -
+$5,000,000
+JT Union Bank of California December 2012 Equity Line of Credit on 2640 Broadway,
+San Francisco, CA
+$500,001 -
+$1,000,000
+SP City National Securities Ongoing Brokerage Margin Account $25,000,001 -
+$50,000,000
+SP Heritage Bank June 2025 Revolving Line of Credit $250,001 -
+Owner Creditor Date Incurred Type Amount of
+Liability
+$500,000
+SP Charles Schwab & Company May
+2025/Ongoing
+Brokerage Margin Account $25,000,001 -
+$50,000,000
+S E: P
+Position Name of Organization
+CFO & Secretary The Paul & Nancy Pelosi Charitable Foundation
+Congressional Advisory Board International Women's Democracy Center
+Distinguished Board Member National Organization of Italian American Women
+Advisory Council Member Munich Security Conference
+S F: A
+None disclosed.
+S G: G
+None disclosed.
+S H: T P  R
+None disclosed.
+S I: P M  C  L  H
+None disclosed.
+E  S, D,  T I
+IPO: Did you purchase any shares that were allocated as a part of an Initial Public Offering?
+ Yes No
+Trusts: Details regarding "Qualified Blind Trusts" approved by the Committee on Ethics and certain other "excepted trusts" need not be
+disclosed. Have you excluded from this report details of such a trust benefiting you, your spouse, or dependent child?
+ Yes No
+Exemption: Have you excluded from this report any other assets, "unearned" income, transactions, or liabilities of a spouse or dependent
+child because they meet all three tests for exemption?
+ Yes No
+C  S
+ I CERTIFY that the statements I have made on the attached Financial Disclosure Report are true, complete, and correct to the best of
+my knowledge and belief.
+Digitally Signed: Hon. Nancy Pelosi , 05/15/2026

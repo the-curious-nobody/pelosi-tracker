@@ -1,0 +1,2209 @@
+[
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "NVIDIA Corporation - Common Stock (NVDA) [ST]",
+  "asset_name": "NVIDIA Corporation - Common Stock (NVDA)",
+  "asset_type_code": "ST",
+  "ticker": "NVDA",
+  "transaction_code": "P",
+  "transaction_date": "2024-12-20",
+  "notification_date": "2024-12-20",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Exercised 500 call options purchased 11/22/23 (50,000 shares) at a strike price of $12 with an expiration date of 12/20/24.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 50000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 500,
+    "option_type": "call",
+    "purchase_dates": [
+     "2023-11-22"
+    ],
+    "shares": 50000,
+    "strike": 12.0,
+    "expiration": "2024-12-20"
+   }
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 4,
+  "asset_id": "NVDA",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 28,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Palo Alto Networks, Inc. (PANW) [ST]",
+  "asset_name": "Palo Alto Networks, Inc. (PANW)",
+  "asset_type_code": "ST",
+  "ticker": "PANW",
+  "transaction_code": "P",
+  "transaction_date": "2024-12-20",
+  "notification_date": "2024-12-20",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Exercised 140 call options purchased 2/12/24 & 2/21/24 (14,000 shares) at a strike price of $100 with an expiration date of 12/20/24.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 14000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 140,
+    "option_type": "call",
+    "purchase_dates": [
+     "2024-02-12",
+     "2024-02-21"
+    ],
+    "shares": 14000,
+    "strike": 100.0,
+    "expiration": "2024-12-20"
+   }
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 6,
+  "asset_id": "PANW",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 28,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Apple Inc. - Common Stock (AAPL) [ST]",
+  "asset_name": "Apple Inc. - Common Stock (AAPL)",
+  "asset_type_code": "ST",
+  "ticker": "AAPL",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2024-12-31",
+  "notification_date": "2024-12-31",
+  "amount": {
+   "raw": "$5,000,001 - $25,000,000",
+   "min": 5000001,
+   "max": 25000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Sold 31,600 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_sale",
+   "lots": [],
+   "shares": 31600,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 2,
+  "asset_id": "AAPL",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 17,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "NVIDIA Corporation - Common Stock (NVDA) [ST]",
+  "asset_name": "NVIDIA Corporation - Common Stock (NVDA)",
+  "asset_type_code": "ST",
+  "ticker": "NVDA",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2024-12-31",
+  "notification_date": "2024-12-31",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Sold 10,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_sale",
+   "lots": [],
+   "shares": 10000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 3,
+  "asset_id": "NVDA",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 17,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Amazon.com, Inc. - Common Stock (AMZN) [OP]",
+  "asset_name": "Amazon.com, Inc. - Common Stock (AMZN)",
+  "asset_type_code": "OP",
+  "ticker": "AMZN",
+  "transaction_code": "P",
+  "transaction_date": "2025-01-14",
+  "notification_date": "2025-01-14",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 50,
+     "option_type": "call",
+     "strike": 150.0,
+     "expiration": "2026-01-16"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 1,
+  "asset_id": "AMZN",
+  "instrument": "option",
+  "underlying_ticker": "AMZN",
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 3,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Alphabet Inc. - Class A Common Stock (GOOGL) [OP]",
+  "asset_name": "Alphabet Inc. - Class A Common Stock (GOOGL)",
+  "asset_type_code": "OP",
+  "ticker": "GOOGL",
+  "transaction_code": "P",
+  "transaction_date": "2025-01-14",
+  "notification_date": "2025-01-14",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 50 call options with a strike price of $150 and an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 50,
+     "option_type": "call",
+     "strike": 150.0,
+     "expiration": "2026-01-16"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 0,
+  "asset_id": "GOOGL",
+  "instrument": "option",
+  "underlying_ticker": "GOOGL",
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 3,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "NVIDIA Corporation - Common Stock (NVDA) [OP]",
+  "asset_name": "NVIDIA Corporation - Common Stock (NVDA)",
+  "asset_type_code": "OP",
+  "ticker": "NVDA",
+  "transaction_code": "P",
+  "transaction_date": "2025-01-14",
+  "notification_date": "2025-01-14",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 50 call options with a strike price of $80 and an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 50,
+     "option_type": "call",
+     "strike": 80.0,
+     "expiration": "2026-01-16"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 5,
+  "asset_id": "NVDA",
+  "instrument": "option",
+  "underlying_ticker": "NVDA",
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 3,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Tempus AI, Inc. - Class A Common Stock (TEM) [OP]",
+  "asset_name": "Tempus AI, Inc. - Class A Common Stock (TEM)",
+  "asset_type_code": "OP",
+  "ticker": "TEM",
+  "transaction_code": "P",
+  "transaction_date": "2025-01-14",
+  "notification_date": "2025-01-14",
+  "amount": {
+   "raw": "$50,001 - $100,000",
+   "min": 50001,
+   "max": 100000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 50 call options with a strike price of $20 and an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 50,
+     "option_type": "call",
+     "strike": 20.0,
+     "expiration": "2026-01-16"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 7,
+  "asset_id": "TEM",
+  "instrument": "option",
+  "underlying_ticker": "TEM",
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 3,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Vistra Corp. Common Stock (VST) [OP]",
+  "asset_name": "Vistra Corp. Common Stock (VST)",
+  "asset_type_code": "OP",
+  "ticker": "VST",
+  "transaction_code": "P",
+  "transaction_date": "2025-01-14",
+  "notification_date": "2025-01-14",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 50 call options with a strike price of $50 and an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 50,
+     "option_type": "call",
+     "strike": 50.0,
+     "expiration": "2026-01-16"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20026590",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf",
+  "filed_date": "2025-01-17",
+  "row_order": 8,
+  "asset_id": "VST",
+  "instrument": "option",
+  "underlying_ticker": "VST",
+  "provenance": [
+   {
+    "filing_id": "20026590",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 3,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "FD-B",
+  "owner_code": "SP",
+  "asset_raw": "Broadcom Inc. - Common Stock (AVGO) [ST]",
+  "asset_name": "Broadcom Inc. - Common Stock (AVGO)",
+  "asset_type_code": "ST",
+  "ticker": "AVGO",
+  "transaction_code": "P",
+  "transaction_date": "2025-06-20",
+  "notification_date": null,
+  "amount": {
+   "raw": "$1,000,001 -",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": true,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": null,
+  "description": "Exercised 200 call options purchased 6/24/24 (20,000 shares) at a strike price of $80 with an expiration date of 6/20/25.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 20000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 200,
+    "option_type": "call",
+    "purchase_dates": [
+     "2024-06-24"
+    ],
+    "shares": 20000,
+    "strike": 80.0,
+    "expiration": "2025-06-20"
+   }
+  },
+  "needs_review": false,
+  "notes": [
+   "amount upper bound inferred from statutory bucket (page-break truncation)"
+  ],
+  "filing_id": "10075701",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf",
+  "filed_date": "2026-05-15",
+  "row_order": 74,
+  "asset_id": "AVGO",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 329,
+  "delay_basis": "annual_report_upper_bound"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "FD-B",
+  "owner_code": "SP",
+  "asset_raw": "Matthews International Mutual Fund [OT]",
+  "asset_name": "Matthews International Mutual Fund",
+  "asset_type_code": "OT",
+  "ticker": null,
+  "transaction_code": "S",
+  "transaction_date": "2025-06-20",
+  "notification_date": null,
+  "amount": {
+   "raw": "$15,001 - $50,000",
+   "min": 15001,
+   "max": 50000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": null,
+  "description": "Sale of 2,822 units.",
+  "location": "US",
+  "comments": "Loss of $28,948 on sale.",
+  "facts": {
+   "kind": "unit_sale",
+   "lots": [],
+   "shares": null,
+   "units": 2822,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "10075701",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf",
+  "filed_date": "2026-05-15",
+  "row_order": 73,
+  "asset_id": "matthews-international-mutual-fund",
+  "instrument": "other_security",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 329,
+  "delay_basis": "annual_report_upper_bound"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Apple Inc. - Common Stock (AAPL) [ST]",
+  "asset_name": "Apple Inc. - Common Stock (AAPL)",
+  "asset_type_code": "ST",
+  "ticker": "AAPL",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2025-10-22",
+  "notification_date": "2025-10-22",
+  "amount": {
+   "raw": "$100,001 - $250,000",
+   "min": 100001,
+   "max": 250000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Contribution of 382 shares held personally to Trinity University in Washington, DC.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "gift",
+   "lots": [],
+   "shares": 382,
+   "units": null,
+   "is_gift": true,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033337",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033337.pdf",
+  "filed_date": "2025-10-24",
+  "row_order": 0,
+  "asset_id": "AAPL",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033337",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033337.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 2,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Apple Inc. - Common Stock (AAPL) [ST]",
+  "asset_name": "Apple Inc. - Common Stock (AAPL)",
+  "asset_type_code": "ST",
+  "ticker": "AAPL",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2025-12-24",
+  "notification_date": "2025-12-24",
+  "amount": {
+   "raw": "$5,000,001 - $25,000,000",
+   "min": 5000001,
+   "max": 25000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Sold 45,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_sale",
+   "lots": [],
+   "shares": 45000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 7,
+  "asset_id": "AAPL",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 30,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Amazon.com, Inc. - Common Stock (AMZN) [ST]",
+  "asset_name": "Amazon.com, Inc. - Common Stock (AMZN)",
+  "asset_type_code": "ST",
+  "ticker": "AMZN",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2025-12-24",
+  "notification_date": "2025-12-24",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Sold 20,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_sale",
+   "lots": [],
+   "shares": 20000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 5,
+  "asset_id": "AMZN",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 30,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "NVIDIA Corporation - Common Stock (NVDA) [ST]",
+  "asset_name": "NVIDIA Corporation - Common Stock (NVDA)",
+  "asset_type_code": "ST",
+  "ticker": "NVDA",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2025-12-24",
+  "notification_date": "2025-12-24",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Sold 20,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_sale",
+   "lots": [],
+   "shares": 20000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 11,
+  "asset_id": "NVDA",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 30,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Apple Inc. - Common Stock (AAPL) [ST]",
+  "asset_name": "Apple Inc. - Common Stock (AAPL)",
+  "asset_type_code": "ST",
+  "ticker": "AAPL",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$5,000,001 - $25,000,000",
+   "min": 5000001,
+   "max": 25000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Contribution of 28,200 shares to Donor-Advised Fund.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "gift",
+   "lots": [],
+   "shares": 28200,
+   "units": null,
+   "is_gift": true,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 9,
+  "asset_id": "AAPL",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Apple Inc. - Common Stock (AAPL) [OP]",
+  "asset_name": "Apple Inc. - Common Stock (AAPL)",
+  "asset_type_code": "OP",
+  "ticker": "AAPL",
+  "transaction_code": "P",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 20 call options with a strike price of $100 and an expiration date of 1/15/27.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 20,
+     "option_type": "call",
+     "strike": 100.0,
+     "expiration": "2027-01-15"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 8,
+  "asset_id": "AAPL",
+  "instrument": "option",
+  "underlying_ticker": "AAPL",
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Amazon.com, Inc. - Common Stock (AMZN) [OP]",
+  "asset_name": "Amazon.com, Inc. - Common Stock (AMZN)",
+  "asset_type_code": "OP",
+  "ticker": "AMZN",
+  "transaction_code": "P",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$100,001 - $250,000",
+   "min": 100001,
+   "max": 250000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 20 call options with a strike price of $120 and an expiration date of 1/15/27.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 20,
+     "option_type": "call",
+     "strike": 120.0,
+     "expiration": "2027-01-15"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 4,
+  "asset_id": "AMZN",
+  "instrument": "option",
+  "underlying_ticker": "AMZN",
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Walt Disney Company (DIS) [ST]",
+  "asset_name": "Walt Disney Company (DIS)",
+  "asset_type_code": "ST",
+  "ticker": "DIS",
+  "transaction_code": "S",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Sold 10,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_sale",
+   "lots": [],
+   "shares": 10000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 17,
+  "asset_id": "DIS",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Alphabet Inc. - Class A Common Stock (GOOGL) [ST]",
+  "asset_name": "Alphabet Inc. - Class A Common Stock (GOOGL)",
+  "asset_type_code": "ST",
+  "ticker": "GOOGL",
+  "transaction_code": "S (partial)",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Contribution of 7,704 shares held personally to Donor-Advised Fund.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "gift",
+   "lots": [],
+   "shares": 7704,
+   "units": null,
+   "is_gift": true,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 3,
+  "asset_id": "GOOGL",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Alphabet Inc. - Class A Common Stock (GOOGL) [OP]",
+  "asset_name": "Alphabet Inc. - Class A Common Stock (GOOGL)",
+  "asset_type_code": "OP",
+  "ticker": "GOOGL",
+  "transaction_code": "P",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 20 call options with a strike price of $150 and an expiration date of 1/15/27.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 20,
+     "option_type": "call",
+     "strike": 150.0,
+     "expiration": "2027-01-15"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 2,
+  "asset_id": "GOOGL",
+  "instrument": "option",
+  "underlying_ticker": "GOOGL",
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "NVIDIA Corporation - Common Stock (NVDA) [OP]",
+  "asset_name": "NVIDIA Corporation - Common Stock (NVDA)",
+  "asset_type_code": "OP",
+  "ticker": "NVDA",
+  "transaction_code": "P",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$100,001 - $250,000",
+   "min": 100001,
+   "max": 250000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 20 call options with a strike price of $100 and an expiration date of 1/15/27.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 20,
+     "option_type": "call",
+     "strike": 100.0,
+     "expiration": "2027-01-15"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 10,
+  "asset_id": "NVDA",
+  "instrument": "option",
+  "underlying_ticker": "NVDA",
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "PayPal Holdings, Inc. - Common Stock (PYPL) [ST]",
+  "asset_name": "PayPal Holdings, Inc. - Common Stock (PYPL)",
+  "asset_type_code": "ST",
+  "ticker": "PYPL",
+  "transaction_code": "S",
+  "transaction_date": "2025-12-30",
+  "notification_date": "2025-12-30",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Sold 5,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_sale",
+   "lots": [],
+   "shares": 5000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 13,
+  "asset_id": "PYPL",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   },
+   {
+    "filing_id": "10075701",
+    "schedule": "FD-B",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075701.pdf"
+   }
+  ],
+  "corroborated": true,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Versant Media Group, Inc. - Class A Common Stock (VSNT) [ST]",
+  "asset_name": "Versant Media Group, Inc. - Class A Common Stock (VSNT)",
+  "asset_type_code": "ST",
+  "ticker": "VSNT",
+  "transaction_code": "E",
+  "transaction_date": "2026-01-02",
+  "notification_date": "2026-01-02",
+  "amount": {
+   "raw": "$15.00",
+   "min": 15,
+   "max": 15,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": null,
+   "exact": true
+  },
+  "filing_status": "New",
+  "description": "776 shares and cash in lieu received as a result of spinoff from Comcast Corporation. No shares of Comcast were surrendered as a result of the spinoff.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "shares_received",
+   "lots": [],
+   "shares": 776,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 15,
+  "asset_id": "VSNT",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 21,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "AllianceBernstein Holding L.P. Units (AB) [AB]",
+  "asset_name": "AllianceBernstein Holding L.P. Units (AB)",
+  "asset_type_code": "AB",
+  "ticker": "AB",
+  "transaction_code": "P",
+  "transaction_date": "2026-01-16",
+  "notification_date": "2026-01-16",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 25,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_purchase",
+   "lots": [],
+   "shares": 25000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 0,
+  "asset_id": "AB",
+  "instrument": "asset_backed_or_fund",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 7,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Amazon.com, Inc. - Common Stock (AMZN) [ST]",
+  "asset_name": "Amazon.com, Inc. - Common Stock (AMZN)",
+  "asset_type_code": "ST",
+  "ticker": "AMZN",
+  "transaction_code": "P",
+  "transaction_date": "2026-01-16",
+  "notification_date": "2026-01-16",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Exercised 50 call options purchased 1/14/25 (5,000 shares) at a strike price of $150 with an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 5000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 50,
+    "option_type": "call",
+    "purchase_dates": [
+     "2025-01-14"
+    ],
+    "shares": 5000,
+    "strike": 150.0,
+    "expiration": "2026-01-16"
+   }
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 6,
+  "asset_id": "AMZN",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 7,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Alphabet Inc. - Class A Common Stock (GOOGL) [ST]",
+  "asset_name": "Alphabet Inc. - Class A Common Stock (GOOGL)",
+  "asset_type_code": "ST",
+  "ticker": "GOOGL",
+  "transaction_code": "P",
+  "transaction_date": "2026-01-16",
+  "notification_date": "2026-01-16",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Exercised 50 call options purchased 1/14/25 (5,000 shares) at a strike price of $150 with an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 5000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 50,
+    "option_type": "call",
+    "purchase_dates": [
+     "2025-01-14"
+    ],
+    "shares": 5000,
+    "strike": 150.0,
+    "expiration": "2026-01-16"
+   }
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 1,
+  "asset_id": "GOOGL",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 7,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "NVIDIA Corporation - Common Stock (NVDA) [ST]",
+  "asset_name": "NVIDIA Corporation - Common Stock (NVDA)",
+  "asset_type_code": "ST",
+  "ticker": "NVDA",
+  "transaction_code": "P",
+  "transaction_date": "2026-01-16",
+  "notification_date": "2026-01-16",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Exercised 50 call options purchased 1/14/25 (5,000 shares) at a strike price of $80 with an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 5000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 50,
+    "option_type": "call",
+    "purchase_dates": [
+     "2025-01-14"
+    ],
+    "shares": 5000,
+    "strike": 80.0,
+    "expiration": "2026-01-16"
+   }
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 12,
+  "asset_id": "NVDA",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 7,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Tempus AI, Inc. - Class A Common Stock (TEM) [ST]",
+  "asset_name": "Tempus AI, Inc. - Class A Common Stock (TEM)",
+  "asset_type_code": "ST",
+  "ticker": "TEM",
+  "transaction_code": "P",
+  "transaction_date": "2026-01-16",
+  "notification_date": "2026-01-16",
+  "amount": {
+   "raw": "$50,001 - $100,000",
+   "min": 50001,
+   "max": 100000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Exercised 50 call options purchased 1/14/25 (5,000 shares) at a strike price of $20 with an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 5000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 50,
+    "option_type": "call",
+    "purchase_dates": [
+     "2025-01-14"
+    ],
+    "shares": 5000,
+    "strike": 20.0,
+    "expiration": "2026-01-16"
+   }
+  },
+  "needs_review": false,
+  "notes": [
+   "asset name reassembled across page break (ticker/type code recovered from the amount cell)"
+  ],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 14,
+  "asset_id": "TEM",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 7,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Vistra Corp. Common Stock (VST) [ST]",
+  "asset_name": "Vistra Corp. Common Stock (VST)",
+  "asset_type_code": "ST",
+  "ticker": "VST",
+  "transaction_code": "P",
+  "transaction_date": "2026-01-16",
+  "notification_date": "2026-01-16",
+  "amount": {
+   "raw": "$100,001 - $250,000",
+   "min": 100001,
+   "max": 250000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Exercised 50 call options purchased 1/14/25 (5,000 shares) at a strike price of $50 with an expiration date of 1/16/26.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "exercise",
+   "lots": [],
+   "shares": 5000,
+   "units": null,
+   "is_gift": false,
+   "exercise": {
+    "contracts": 50,
+    "option_type": "call",
+    "purchase_dates": [
+     "2025-01-14"
+    ],
+    "shares": 5000,
+    "strike": 50.0,
+    "expiration": "2026-01-16"
+   }
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20033725",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf",
+  "filed_date": "2026-01-23",
+  "row_order": 16,
+  "asset_id": "VST",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20033725",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 7,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Bloom Energy Corporation Class A Common Stock (BE) [ST]",
+  "asset_name": "Bloom Energy Corporation Class A Common Stock (BE)",
+  "asset_type_code": "ST",
+  "ticker": "BE",
+  "transaction_code": "P",
+  "transaction_date": "2026-07-24",
+  "notification_date": "2026-07-24",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 10,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_purchase",
+   "lots": [],
+   "shares": 10000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20035143",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
+  "filed_date": "2026-08-21",
+  "row_order": 0,
+  "asset_id": "BE",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20035143",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 28,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Bloom Energy Corporation Class A Common Stock (BE) [OP]",
+  "asset_name": "Bloom Energy Corporation Class A Common Stock (BE)",
+  "asset_type_code": "OP",
+  "ticker": "BE",
+  "transaction_code": "P",
+  "transaction_date": "2026-07-24",
+  "notification_date": "2026-07-24",
+  "amount": {
+   "raw": "$1,000,001 - $5,000,000",
+   "min": 1000001,
+   "max": 5000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 100 call options with a strike price of $100 and an expiration date of 6/17/27.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 100,
+     "option_type": "call",
+     "strike": 100.0,
+     "expiration": "2027-06-17"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20035143",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
+  "filed_date": "2026-08-21",
+  "row_order": 1,
+  "asset_id": "BE",
+  "instrument": "option",
+  "underlying_ticker": "BE",
+  "provenance": [
+   {
+    "filing_id": "20035143",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 28,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Intel Corporation - Common Stock (INTC) [OP]",
+  "asset_name": "Intel Corporation - Common Stock (INTC)",
+  "asset_type_code": "OP",
+  "ticker": "INTC",
+  "transaction_code": "P",
+  "transaction_date": "2026-07-24",
+  "notification_date": "2026-07-24",
+  "amount": {
+   "raw": "$250,001 - $500,000",
+   "min": 250001,
+   "max": 500000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 50 call options with a strike price of $50 and an expiration date of 6/17/27.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 50,
+     "option_type": "call",
+     "strike": 50.0,
+     "expiration": "2027-06-17"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20035143",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
+  "filed_date": "2026-08-21",
+  "row_order": 4,
+  "asset_id": "INTC",
+  "instrument": "option",
+  "underlying_ticker": "INTC",
+  "provenance": [
+   {
+    "filing_id": "20035143",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 28,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Intel Corporation - Common Stock (INTC) [ST]",
+  "asset_name": "Intel Corporation - Common Stock (INTC)",
+  "asset_type_code": "ST",
+  "ticker": "INTC",
+  "transaction_code": "P",
+  "transaction_date": "2026-07-24",
+  "notification_date": "2026-07-24",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 10,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_purchase",
+   "lots": [],
+   "shares": 10000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20035143",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
+  "filed_date": "2026-08-21",
+  "row_order": 5,
+  "asset_id": "INTC",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20035143",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 28,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "REOF XXV, LLC [AB]",
+  "asset_name": "REOF XXV, LLC",
+  "asset_type_code": "AB",
+  "ticker": null,
+  "transaction_code": "P",
+  "transaction_date": "2026-07-27",
+  "notification_date": "2026-07-27",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Additional investment in LLC which is acquiring and restoring a luxury hotel property in San Francisco, CA.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "other",
+   "lots": [],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20035143",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
+  "filed_date": "2026-08-21",
+  "row_order": 6,
+  "asset_id": "reof-xxv-llc",
+  "instrument": "asset_backed_or_fund",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20035143",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 25,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Bloom Energy Corporation Class A Common Stock (BE) [ST]",
+  "asset_name": "Bloom Energy Corporation Class A Common Stock (BE)",
+  "asset_type_code": "ST",
+  "ticker": "BE",
+  "transaction_code": "P",
+  "transaction_date": "2026-07-28",
+  "notification_date": "2026-07-28",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 5,000 shares.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "share_purchase",
+   "lots": [],
+   "shares": 5000,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20035143",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
+  "filed_date": "2026-08-21",
+  "row_order": 2,
+  "asset_id": "BE",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20035143",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Bloom Energy Corporation Class A Common Stock (BE) [OP]",
+  "asset_name": "Bloom Energy Corporation Class A Common Stock (BE)",
+  "asset_type_code": "OP",
+  "ticker": "BE",
+  "transaction_code": "P",
+  "transaction_date": "2026-07-28",
+  "notification_date": "2026-07-28",
+  "amount": {
+   "raw": "$500,001 - $1,000,000",
+   "min": 500001,
+   "max": 1000000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Purchased 100 call options with a strike price of $100 and an expiration date of 6/17/27.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "option_purchase",
+   "lots": [
+    {
+     "contracts": 100,
+     "option_type": "call",
+     "strike": 100.0,
+     "expiration": "2027-06-17"
+    }
+   ],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [],
+  "filing_id": "20035143",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
+  "filed_date": "2026-08-21",
+  "row_order": 3,
+  "asset_id": "BE",
+  "instrument": "option",
+  "underlying_ticker": "BE",
+  "provenance": [
+   {
+    "filing_id": "20035143",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 24,
+  "delay_basis": "ptr"
+ }
+]

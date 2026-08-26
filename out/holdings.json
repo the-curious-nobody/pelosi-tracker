@@ -1,0 +1,3387 @@
+{
+ "as_of": "2026-08-26",
+ "baseline_period_end": "2025-12-31",
+ "coverage": {
+  "filed_through": "2026-08-21",
+  "known_gaps": [
+   "2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it)"
+  ]
+ },
+ "method": "annual Schedule A baseline + subsequent transactions; share balances are never computed - only disclosed movements are shown",
+ "stocks": [
+  {
+   "asset_id": "AAPL",
+   "ticker": "AAPL",
+   "name": "Apple Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Capital Gains, Dividends",
+   "income": {
+    "raw": "Over $5,000,000",
+    "min": 5000000,
+    "max": null,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [
+    {
+     "date": "2024-12-31",
+     "shares": -31600,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20026590"
+     ]
+    },
+    {
+     "date": "2025-10-22",
+     "shares": -382,
+     "unit": "shares",
+     "kind": "gift",
+     "is_gift": true,
+     "filing_ids": [
+      "20033337",
+      "10075701"
+     ]
+    },
+    {
+     "date": "2025-12-24",
+     "shares": -45000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725",
+      "10075701"
+     ]
+    },
+    {
+     "date": "2025-12-30",
+     "shares": -28200,
+     "unit": "shares",
+     "kind": "gift",
+     "is_gift": true,
+     "filing_ids": [
+      "20033725",
+      "10075701"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "AMZN",
+   "ticker": "AMZN",
+   "name": "Amazon.com, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Capital Gains",
+   "income": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held - Increased",
+   "confidence": "medium",
+   "disclosed_movements": [
+    {
+     "date": "2025-12-24",
+     "shares": -20000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725",
+      "10075701"
+     ]
+    },
+    {
+     "date": "2026-01-16",
+     "shares": 5000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2026-01-16",
+     "code": "P"
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "AVGO",
+   "ticker": "AVGO",
+   "name": "Broadcom Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [
+    {
+     "date": "2025-06-20",
+     "shares": 20000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "10075701"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "AXP",
+   "ticker": "AXP",
+   "name": "American Express Company",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "BE",
+   "ticker": "BE",
+   "name": "Bloom Energy Corporation",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": null,
+   "income_types": null,
+   "income": null,
+   "status": "Possibly Held (purchase observed; no annual baseline)",
+   "confidence": "low",
+   "disclosed_movements": [
+    {
+     "date": "2026-07-24",
+     "shares": 10000,
+     "unit": "shares",
+     "kind": "share_purchase",
+     "is_gift": false,
+     "filing_ids": [
+      "20035143"
+     ]
+    },
+    {
+     "date": "2026-07-28",
+     "shares": 5000,
+     "unit": "shares",
+     "kind": "share_purchase",
+     "is_gift": false,
+     "filing_ids": [
+      "20035143"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "transaction",
+     "filing_id": "20035143",
+     "date": "2026-07-24",
+     "code": "P"
+    },
+    {
+     "type": "transaction",
+     "filing_id": "20035143",
+     "date": "2026-07-28",
+     "code": "P"
+    }
+   ],
+   "notes": [
+    "no annual-report baseline ingested for this asset"
+   ]
+  },
+  {
+   "asset_id": "CLNE",
+   "ticker": "CLNE",
+   "name": "Clean Energy Fuels Corp.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$1,001 - $15,000",
+    "min": 1001,
+    "max": 15000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1,001 - $15,000",
+      "min": 1001,
+      "max": 15000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "CMCSA",
+   "ticker": "CMCSA",
+   "name": "Comcast Corporation",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$500,001 - $1,000,000",
+    "min": 500001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "CRM",
+   "ticker": "CRM",
+   "name": "Salesforce.com Inc",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "CRWD",
+   "ticker": "CRWD",
+   "name": "CrowdStrike Holdings, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "DBX",
+   "ticker": "DBX",
+   "name": "Dropbox, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$250,001 - $500,000",
+    "min": 250001,
+    "max": 500000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "DIS",
+   "ticker": "DIS",
+   "name": "Walt Disney Company",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "income_types": "Dividends, Capital Loss",
+   "income": {
+    "raw": "$100,001 - $1,000,000",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Closed (as of 2025-12-31)",
+   "confidence": "high",
+   "disclosed_movements": [
+    {
+     "date": "2025-12-30",
+     "shares": -10000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725",
+      "10075701"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "None",
+      "min": null,
+      "max": null,
+      "is_none": true,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": null,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "annual report lists the position with no year-end value; income column shows it existed during the year"
+   ]
+  },
+  {
+   "asset_id": "GOOGL",
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held - Increased",
+   "confidence": "medium",
+   "disclosed_movements": [
+    {
+     "date": "2025-12-30",
+     "shares": -7704,
+     "unit": "shares",
+     "kind": "gift",
+     "is_gift": true,
+     "filing_ids": [
+      "20033725",
+      "10075701"
+     ]
+    },
+    {
+     "date": "2026-01-16",
+     "shares": 5000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2026-01-16",
+     "code": "P"
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "IBKR",
+   "ticker": "IBKR",
+   "name": "Interactive Brokers Group, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$500,001 - $1,000,000",
+    "min": 500001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$2,501 - $5,000",
+    "min": 2501,
+    "max": 5000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "INTC",
+   "ticker": "INTC",
+   "name": "Intel Corporation",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": null,
+   "income_types": null,
+   "income": null,
+   "status": "Possibly Held (purchase observed; no annual baseline)",
+   "confidence": "low",
+   "disclosed_movements": [
+    {
+     "date": "2026-07-24",
+     "shares": 10000,
+     "unit": "shares",
+     "kind": "share_purchase",
+     "is_gift": false,
+     "filing_ids": [
+      "20035143"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "transaction",
+     "filing_id": "20035143",
+     "date": "2026-07-24",
+     "code": "P"
+    }
+   ],
+   "notes": [
+    "no annual-report baseline ingested for this asset"
+   ]
+  },
+  {
+   "asset_id": "MORN",
+   "ticker": "MORN",
+   "name": "Morningstar, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$100,001 - $250,000",
+    "min": 100001,
+    "max": 250000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$1,001 - $2,500",
+    "min": 1001,
+    "max": 2500,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$100,001 - $250,000",
+      "min": 100001,
+      "max": 250000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "MSFT",
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "NFLX",
+   "ticker": "NFLX",
+   "name": "Netflix, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "NVDA",
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Capital Gains, Dividends",
+   "income": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held - Increased",
+   "confidence": "medium",
+   "disclosed_movements": [
+    {
+     "date": "2024-12-20",
+     "shares": 50000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "20026590"
+     ]
+    },
+    {
+     "date": "2024-12-31",
+     "shares": -10000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20026590"
+     ]
+    },
+    {
+     "date": "2025-12-24",
+     "shares": -20000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725",
+      "10075701"
+     ]
+    },
+    {
+     "date": "2026-01-16",
+     "shares": 5000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2026-01-16",
+     "code": "P"
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2026-01-16 (222 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "PANW",
+   "ticker": "PANW",
+   "name": "Palo Alto Networks, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [
+    {
+     "date": "2024-12-20",
+     "shares": 14000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "20026590"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "PYPL",
+   "ticker": "PYPL",
+   "name": "PayPal Holdings, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "income_types": "Dividends, Capital Loss",
+   "income": {
+    "raw": "$100,001 - $1,000,000",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Closed (as of 2025-12-31)",
+   "confidence": "high",
+   "disclosed_movements": [
+    {
+     "date": "2025-12-30",
+     "shares": -5000,
+     "unit": "shares",
+     "kind": "share_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725",
+      "10075701"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "None",
+      "min": null,
+      "max": null,
+      "is_none": true,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": null,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "annual report lists the position with no year-end value; income column shows it existed during the year"
+   ]
+  },
+  {
+   "asset_id": "QCOM",
+   "ticker": "QCOM",
+   "name": "QUALCOMM Incorporated",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$201 - $1,000",
+    "min": 201,
+    "max": 1000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$15,001 - $50,000",
+      "min": 15001,
+      "max": 50000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "RBLX",
+   "ticker": "RBLX",
+   "name": "Roblox Corporation",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$250,001 - $500,000",
+    "min": 250001,
+    "max": 500000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "SQ",
+   "ticker": "SQ",
+   "name": "Block, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$250,001 - $500,000",
+    "min": 250001,
+    "max": 500000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "T",
+   "ticker": "T",
+   "name": "AT&T Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$100,001 - $250,000",
+    "min": 100001,
+    "max": 250000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$5,001 - $15,000",
+    "min": 5001,
+    "max": 15000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$100,001 - $250,000",
+      "min": 100001,
+      "max": 250000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "TEM",
+   "ticker": "TEM",
+   "name": "Tempus AI, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": null,
+   "income_types": null,
+   "income": null,
+   "status": "Possibly Held (purchase observed; no annual baseline)",
+   "confidence": "low",
+   "disclosed_movements": [
+    {
+     "date": "2026-01-16",
+     "shares": 5000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2026-01-16",
+     "code": "P"
+    }
+   ],
+   "notes": [
+    "no annual-report baseline ingested for this asset"
+   ]
+  },
+  {
+   "asset_id": "V",
+   "ticker": "V",
+   "name": "Visa Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Dividends",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$5,000,001 - $25,000,000",
+      "min": 5000001,
+      "max": 25000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "VSNT",
+   "ticker": "VSNT",
+   "name": "Versant Media Group, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": null,
+   "income_types": null,
+   "income": null,
+   "status": "Possibly Held (shares received in corporate action; no annual baseline)",
+   "confidence": "low",
+   "disclosed_movements": [
+    {
+     "date": "2026-01-02",
+     "shares": 776,
+     "unit": "shares",
+     "kind": "shares_received",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2026-01-02",
+     "code": "E"
+    }
+   ],
+   "notes": [
+    "no annual-report baseline ingested for this asset"
+   ]
+  },
+  {
+   "asset_id": "VST",
+   "ticker": "VST",
+   "name": "Vistra Corp.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": null,
+   "income_types": null,
+   "income": null,
+   "status": "Possibly Held (purchase observed; no annual baseline)",
+   "confidence": "low",
+   "disclosed_movements": [
+    {
+     "date": "2026-01-16",
+     "shares": 5000,
+     "unit": "shares",
+     "kind": "exercise",
+     "is_gift": false,
+     "filing_ids": [
+      "20033725"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "transaction",
+     "filing_id": "20033725",
+     "date": "2026-01-16",
+     "code": "P"
+    }
+   ],
+   "notes": [
+    "no annual-report baseline ingested for this asset"
+   ]
+  },
+  {
+   "asset_id": "WBD",
+   "ticker": "WBD",
+   "name": "Warner Bros. Discovery, Inc.",
+   "owner": "SP",
+   "instrument": "stock",
+   "period_end_value": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$50,001 - $100,000",
+      "min": 50001,
+      "max": 100000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "matthews-international-mutual-fund",
+   "ticker": null,
+   "name": "Matthews International Mutual Fund",
+   "owner": "SP",
+   "instrument": "mutual_fund",
+   "period_end_value": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "income_types": "Capital Loss",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Closed (as of 2025-12-31)",
+   "confidence": "high",
+   "disclosed_movements": [
+    {
+     "date": "2025-06-20",
+     "shares": -2822,
+     "unit": "units",
+     "kind": "unit_sale",
+     "is_gift": false,
+     "filing_ids": [
+      "10075701"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "None",
+      "min": null,
+      "max": null,
+      "is_none": true,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": null,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "annual report lists the position with no year-end value; income column shows it existed during the year"
+   ]
+  },
+  {
+   "asset_id": "tripath-technology-inc",
+   "ticker": null,
+   "name": "Tripath Technology Inc.",
+   "owner": "SP",
+   "instrument": "stock_non_public",
+   "period_end_value": {
+    "raw": "$1 - $1,000",
+    "min": 1,
+    "max": 1000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Likely Held",
+   "confidence": "medium",
+   "disclosed_movements": [],
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1 - $1,000",
+      "min": 1,
+      "max": 1000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  }
+ ],
+ "options": [
+  {
+   "asset_id": "AAPL",
+   "name": "Apple Inc.",
+   "option_type": "call",
+   "contracts": 20,
+   "strike": 100.0,
+   "expiration": "2027-01-15",
+   "acquired": "2025-12-30",
+   "status": "Likely Held",
+   "confidence": "medium",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20033725",
+     "date": "2025-12-30",
+     "amount": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "AMZN",
+   "name": "Amazon.com, Inc.",
+   "option_type": "call",
+   "contracts": 50,
+   "strike": 150.0,
+   "expiration": "2026-01-16",
+   "acquired": "2025-01-14",
+   "status": "Exercised on 2026-01-16 -> 5,000 shares",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20026590",
+     "date": "2025-01-14",
+     "amount": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2026-01-16",
+    "shares": 5000,
+    "filing_id": "20033725"
+   },
+   "notes": []
+  },
+  {
+   "asset_id": "AMZN",
+   "name": "Amazon.com, Inc.",
+   "option_type": "call",
+   "contracts": 20,
+   "strike": 120.0,
+   "expiration": "2027-01-15",
+   "acquired": "2025-12-30",
+   "status": "Likely Held",
+   "confidence": "medium",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20033725",
+     "date": "2025-12-30",
+     "amount": {
+      "raw": "$100,001 - $250,000",
+      "min": 100001,
+      "max": 250000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "AVGO",
+   "name": "Broadcom Inc.",
+   "option_type": "call",
+   "contracts": 200,
+   "strike": 80.0,
+   "expiration": "2025-06-20",
+   "acquired": null,
+   "status": "Exercised on 2025-06-20 -> 20,000 shares",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "None",
+      "min": null,
+      "max": null,
+      "is_none": true,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": null,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2025-06-20",
+    "shares": 20000,
+    "filing_id": "10075701"
+   },
+   "notes": []
+  },
+  {
+   "asset_id": "BE",
+   "name": "Bloom Energy Corporation",
+   "option_type": "call",
+   "contracts": 200,
+   "strike": 100.0,
+   "expiration": "2027-06-17",
+   "acquired": "2026-07-24",
+   "status": "Likely Held",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "purchase",
+     "filing_id": "20035143",
+     "date": "2026-07-24",
+     "amount": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20035143",
+     "date": "2026-07-28",
+     "amount": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": [
+    "2 disclosed purchases of this lot combined (2026-07-24, 2026-07-28)"
+   ]
+  },
+  {
+   "asset_id": "GOOGL",
+   "name": "Alphabet Inc.",
+   "option_type": "call",
+   "contracts": 50,
+   "strike": 150.0,
+   "expiration": "2026-01-16",
+   "acquired": "2025-01-14",
+   "status": "Exercised on 2026-01-16 -> 5,000 shares",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20026590",
+     "date": "2025-01-14",
+     "amount": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2026-01-16",
+    "shares": 5000,
+    "filing_id": "20033725"
+   },
+   "notes": []
+  },
+  {
+   "asset_id": "GOOGL",
+   "name": "Alphabet Inc.",
+   "option_type": "call",
+   "contracts": 20,
+   "strike": 150.0,
+   "expiration": "2027-01-15",
+   "acquired": "2025-12-30",
+   "status": "Likely Held",
+   "confidence": "medium",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$1,000,001 - $5,000,000",
+      "min": 1000001,
+      "max": 5000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20033725",
+     "date": "2025-12-30",
+     "amount": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "INTC",
+   "name": "Intel Corporation",
+   "option_type": "call",
+   "contracts": 50,
+   "strike": 50.0,
+   "expiration": "2027-06-17",
+   "acquired": "2026-07-24",
+   "status": "Likely Held",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "purchase",
+     "filing_id": "20035143",
+     "date": "2026-07-24",
+     "amount": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": []
+  },
+  {
+   "asset_id": "NVDA",
+   "name": "NVIDIA Corporation",
+   "option_type": "call",
+   "contracts": 500,
+   "strike": 12.0,
+   "expiration": "2024-12-20",
+   "acquired": "2023-11-22",
+   "status": "Exercised on 2024-12-20 -> 50,000 shares",
+   "confidence": "high",
+   "evidence": [],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2024-12-20",
+    "shares": 50000,
+    "filing_id": "20026590"
+   },
+   "notes": [
+    "acquisition predates ingested filings"
+   ]
+  },
+  {
+   "asset_id": "NVDA",
+   "name": "NVIDIA Corporation",
+   "option_type": "call",
+   "contracts": 50,
+   "strike": 80.0,
+   "expiration": "2026-01-16",
+   "acquired": "2025-01-14",
+   "status": "Exercised on 2026-01-16 -> 5,000 shares",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20026590",
+     "date": "2025-01-14",
+     "amount": {
+      "raw": "$250,001 - $500,000",
+      "min": 250001,
+      "max": 500000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2026-01-16",
+    "shares": 5000,
+    "filing_id": "20033725"
+   },
+   "notes": []
+  },
+  {
+   "asset_id": "NVDA",
+   "name": "NVIDIA Corporation",
+   "option_type": "call",
+   "contracts": 20,
+   "strike": 100.0,
+   "expiration": "2027-01-15",
+   "acquired": "2025-12-30",
+   "status": "Likely Held",
+   "confidence": "medium",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20033725",
+     "date": "2025-12-30",
+     "amount": {
+      "raw": "$100,001 - $250,000",
+      "min": 100001,
+      "max": 250000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": null,
+   "notes": [
+    "no disclosures for this asset after 2025-12-31 (238 days before as-of date) in filings ingested through 2026-08-21; caution: 1 known filing(s) not ingested (2026-06-23 #20034836 (official PDF not retrieved in this environment; live sync will fetch it))"
+   ]
+  },
+  {
+   "asset_id": "PANW",
+   "name": "Palo Alto Networks, Inc.",
+   "option_type": "call",
+   "contracts": 140,
+   "strike": 100.0,
+   "expiration": "2024-12-20",
+   "acquired": "2024-02-12",
+   "status": "Exercised on 2024-12-20 -> 14,000 shares",
+   "confidence": "high",
+   "evidence": [],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2024-12-20",
+    "shares": 14000,
+    "filing_id": "20026590"
+   },
+   "notes": [
+    "acquisition predates ingested filings"
+   ]
+  },
+  {
+   "asset_id": "TEM",
+   "name": "Tempus AI, Inc.",
+   "option_type": "call",
+   "contracts": 50,
+   "strike": 20.0,
+   "expiration": "2026-01-16",
+   "acquired": "2025-01-14",
+   "status": "Exercised on 2026-01-16 -> 5,000 shares",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$100,001 - $250,000",
+      "min": 100001,
+      "max": 250000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20026590",
+     "date": "2025-01-14",
+     "amount": {
+      "raw": "$50,001 - $100,000",
+      "min": 50001,
+      "max": 100000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2026-01-16",
+    "shares": 5000,
+    "filing_id": "20033725"
+   },
+   "notes": []
+  },
+  {
+   "asset_id": "VST",
+   "name": "Vistra Corp.",
+   "option_type": "call",
+   "contracts": 50,
+   "strike": 50.0,
+   "expiration": "2026-01-16",
+   "acquired": "2025-01-14",
+   "status": "Exercised on 2026-01-16 -> 5,000 shares",
+   "confidence": "high",
+   "evidence": [
+    {
+     "type": "annual_position",
+     "filing_id": "10075701",
+     "as_of_period_end": "2025-12-31",
+     "value_range": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    },
+    {
+     "type": "purchase",
+     "filing_id": "20026590",
+     "date": "2025-01-14",
+     "amount": {
+      "raw": "$500,001 - $1,000,000",
+      "min": 500001,
+      "max": 1000000,
+      "is_none": false,
+      "undetermined": false,
+      "max_inferred": false,
+      "in_known_bucket": true,
+      "exact": false
+     }
+    }
+   ],
+   "resolution": {
+    "kind": "exercised",
+    "date": "2026-01-16",
+    "shares": 5000,
+    "filing_id": "20033725"
+   },
+   "notes": []
+  }
+ ],
+ "other_assets": [
+  {
+   "asset_id": "11-zinfandel-lane-home-vineyard",
+   "name": "11 Zinfandel Lane - Home & Vineyard",
+   "owner": "JT",
+   "instrument": "real_property",
+   "value_range": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Grape Sales",
+   "income": {
+    "raw": "$100,001 - $1,000,000",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "St. Helena/Napa, CA, US",
+   "description": null
+  },
+  {
+   "asset_id": "25-point-lobos-commercial-property",
+   "name": "25 Point Lobos - Commercial Property",
+   "owner": "SP",
+   "instrument": "real_property",
+   "value_range": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Rent",
+   "income": {
+    "raw": "$100,001 - $1,000,000",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": null
+  },
+  {
+   "asset_id": "45-belden-place-four-story-commercial-building",
+   "name": "45 Belden Place - Four Story Commercial Building",
+   "owner": "SP",
+   "instrument": "real_property",
+   "value_range": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Rent",
+   "income": {
+    "raw": "$100,001 - $1,000,000",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": null
+  },
+  {
+   "asset_id": "AB",
+   "name": "AllianceBernstein Holding L.P. Units (AB)",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Income",
+   "income": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31); subsequent transaction disclosed",
+   "location": "New York, NY, US",
+   "description": "Limited partnership in a global asset management firm providing investment management and research services worldwide to institutional, high-net-worth and retail investors.",
+   "notes": [
+    "follow-on investment disclosed 2026-01-16 (filing 20033725)"
+   ]
+  },
+  {
+   "asset_id": "aristotle-llc",
+   "name": "Aristotle LLC",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": "Limited partnership investment in Aristotle Publishing, Inc."
+  },
+  {
+   "asset_id": "auberge-du-soleil",
+   "name": "Auberge du Soleil",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$2,501 - $5,000",
+    "min": 2501,
+    "max": 5000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "Rutherford/Napa, CA, US",
+   "description": "Limited partnership investment in resort hotel."
+  },
+  {
+   "asset_id": "bank-of-america-checking-account",
+   "name": "Bank of America - Checking Account",
+   "owner": "SP",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "$1,001 - $15,000",
+    "min": 1001,
+    "max": 15000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "San Francisco, CA"
+  },
+  {
+   "asset_id": "bank-of-america-checking-account",
+   "name": "Bank of America - Checking Account",
+   "owner": "JT",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "$1,001 - $15,000",
+    "min": 1001,
+    "max": 15000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "San Francisco, CA"
+  },
+  {
+   "asset_id": "bank-of-america-checking-account",
+   "name": "Bank of America - Checking Account",
+   "owner": "SP",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "Washington, DC"
+  },
+  {
+   "asset_id": "borel-real-estate-company",
+   "name": "Borel Real Estate Company",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Income, Rent",
+   "income": {
+    "raw": "$1,001 - $2,500",
+    "min": 1001,
+    "max": 2500,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Mateo/San Mateo, CA, US",
+   "description": "Limited partnership interest in shopping center."
+  },
+  {
+   "asset_id": "city-car-services-llc",
+   "name": "City Car Services LLC",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "Hingham/Plymouth, MA, US",
+   "description": "Limited partnership investment in limousine company."
+  },
+  {
+   "asset_id": "city-national-bank-checking-account",
+   "name": "City National Bank - Checking Account",
+   "owner": "SP",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "income_types": "Interest",
+   "income": {
+    "raw": "$1 - $200",
+    "min": 1,
+    "max": 200,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "San Francisco, CA"
+  },
+  {
+   "asset_id": "city-national-securities-brokerage-money-market-account",
+   "name": "City National Securities - Brokerage Money Market Account",
+   "owner": "SP",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "income_types": "Interest",
+   "income": {
+    "raw": "$1 - $200",
+    "min": 1,
+    "max": 200,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": null
+  },
+  {
+   "asset_id": "congressional-credit-union-checking-account",
+   "name": "Congressional Credit Union - Checking Account",
+   "owner": null,
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "$250,001 - $500,000",
+    "min": 250001,
+    "max": 500000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "Washington, DC"
+  },
+  {
+   "asset_id": "edi-associates",
+   "name": "EDI Associates",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$250,001 - $500,000",
+    "min": 250001,
+    "max": 500000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Income",
+   "income": {
+    "raw": "$5,001 - $15,000",
+    "min": 5001,
+    "max": 15000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "Sonoma/Sonoma, CA, US",
+   "description": "Limited partnership investment in El Dorado Hotel."
+  },
+  {
+   "asset_id": "financial-leasing-services",
+   "name": "Financial Leasing Services",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$100,001 - $250,000",
+    "min": 100001,
+    "max": 250000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": "Investment consulting company."
+  },
+  {
+   "asset_id": "forge-investments-llc",
+   "name": "Forge Investments, LLC",
+   "owner": "SP",
+   "instrument": "asset_backed_or_fund",
+   "value_range": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "Investment in fund that owns Databricks stock. Databricks is a San Francisco engineering and analytic software company based on AI technology."
+  },
+  {
+   "asset_id": "forty-five-belden-corporation",
+   "name": "Forty-Five Belden Corporation",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": "Investment management company."
+  },
+  {
+   "asset_id": "global-ambassador-concierge-llc",
+   "name": "Global Ambassador Concierge LLC",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "Washington, DC, US",
+   "description": "Limited partnership interest in concierge services for international travelers."
+  },
+  {
+   "asset_id": "heritage-bank-checking-account",
+   "name": "Heritage Bank - Checking Account",
+   "owner": "SP",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Interest",
+   "income": {
+    "raw": "$1 - $200",
+    "min": 1,
+    "max": 200,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": null
+  },
+  {
+   "asset_id": "nautilus-leasing-services",
+   "name": "Nautilus Leasing Services",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": "Container leasing company."
+  },
+  {
+   "asset_id": "nine-forty-five-battery-llc",
+   "name": "Nine Forty Five Battery LLC",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Income",
+   "income": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": "General partner in 945 Battery Street office building."
+  },
+  {
+   "asset_id": "piatti-restaurant-company",
+   "name": "Piatti Restaurant Company",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$50,001 - $100,000",
+    "min": 50001,
+    "max": 100000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "Tiburon/Marin, CA, US",
+   "description": "Limited partnership investment in restaurant company."
+  },
+  {
+   "asset_id": "reof-xx-llc",
+   "name": "REOF XX, LLC",
+   "owner": "SP",
+   "instrument": "asset_backed_or_fund",
+   "value_range": {
+    "raw": "$100,001 - $250,000",
+    "min": 100001,
+    "max": 250000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "Investment in LLC which acquired five Courtyard Marriott hotels located in Fairfax, VA (one), suburban Baltimore, MD (two), and San Antonio, TX (two)."
+  },
+  {
+   "asset_id": "reof-xxi-llc",
+   "name": "REOF XXI, LLC",
+   "owner": "SP",
+   "instrument": "asset_backed_or_fund",
+   "value_range": {
+    "raw": "$100,001 - $250,000",
+    "min": 100001,
+    "max": 250000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$100,001 - $1,000,000",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "Investment in LLC which is acquiring three unique office buildings with a common address of 222 Kearny Street in San Francisco, CA."
+  },
+  {
+   "asset_id": "reof-xxii-llc",
+   "name": "REOF XXII, LLC",
+   "owner": "SP",
+   "instrument": "asset_backed_or_fund",
+   "value_range": {
+    "raw": "$100,001 - $250,000",
+    "min": 100001,
+    "max": 250000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$5,001 - $15,000",
+    "min": 5001,
+    "max": 15000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "Investment in LLC which is acquiring eleven Marriott-branded hotels (Rogers, AR - 1, Phoenix, AZ - 1, Lakeland, FL -1, Albany, GA - 1, Andover, MA - 1, Fayetteville, NC - 1, Greenville, SC - 1, Johnson City, TN - 1, Beaumont, TX - 1, Richmond, VA - 1, Vancouver, WA - 1) and nine Hilton-branded hotels (Montgomery, AL -2, Schaumberg, IL -1, Jackson, TN - 1, Allen, TX -2, Burleson, TX - 1, El Paso, TX - 1, Irving, TX - 1)."
+  },
+  {
+   "asset_id": "reof-xxv-llc",
+   "name": "REOF XXV, LLC",
+   "owner": "SP",
+   "instrument": "asset_backed_or_fund",
+   "value_range": {
+    "raw": "$500,001 - $1,000,000",
+    "min": 500001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31); subsequent transaction disclosed",
+   "location": null,
+   "description": "Investment in LLC which is acquiring and restoring a luxury hotel property in San Francisco, CA.",
+   "notes": [
+    "follow-on investment disclosed 2026-07-27 (filing 20035143)"
+   ]
+  },
+  {
+   "asset_id": "reof-xxvi-llc",
+   "name": "REOF XXVI, LLC",
+   "owner": "SP",
+   "instrument": "asset_backed_or_fund",
+   "value_range": {
+    "raw": "$250,001 - $500,000",
+    "min": 250001,
+    "max": 500000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Income",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "Investment in LLC which is acquiring and managing a commercial office property at 631 Howard Street in San Francisco, CA."
+  },
+  {
+   "asset_id": "russell-ranch-llc",
+   "name": "Russell Ranch LLC",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$1,000,001 - $5,000,000",
+    "min": 1000001,
+    "max": 5000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$2,501 - $5,000",
+    "min": 2501,
+    "max": 5000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "Sacramento/Sacramento, CA, US",
+   "description": "Limited partner in undeveloped residential real estate investment."
+  },
+  {
+   "asset_id": "stoneridge-llc",
+   "name": "Stoneridge LLC",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$250,001 - $500,000",
+    "min": 250001,
+    "max": 500000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss",
+   "income": {
+    "raw": "$201 - $1,000",
+    "min": 201,
+    "max": 1000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "Sacramento/Sacramento, CA, US",
+   "description": "Limited partner in undeveloped residential real estate investment."
+  },
+  {
+   "asset_id": "the-art-of-power-book-contract",
+   "name": "The Art of Power Book Contract",
+   "owner": null,
+   "instrument": "intellectual_property",
+   "value_range": {
+    "raw": "Undetermined",
+    "min": null,
+    "max": null,
+    "is_none": false,
+    "undetermined": true,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "income_types": "Royalties",
+   "income": {
+    "raw": "$100,001 - $1,000,000",
+    "min": 100001,
+    "max": 1000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "The Art of Power published by Simon & Schuster."
+  },
+  {
+   "asset_id": "thirteen-hundred-one-sansome-llc",
+   "name": "Thirteen Hundred One Sansome LLC",
+   "owner": "SP",
+   "instrument": "business_interest",
+   "value_range": {
+    "raw": "$5,000,001 - $25,000,000",
+    "min": 5000001,
+    "max": 25000000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Partnership Loss, Rent",
+   "income": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": "San Francisco/San Francisco, CA, US",
+   "description": "General partner in 1301 Sansome Street office building."
+  },
+  {
+   "asset_id": "u-s-bank-checking-account",
+   "name": "U.S. Bank - Checking Account",
+   "owner": "SP",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "$1,001 - $15,000",
+    "min": 1001,
+    "max": 15000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "San Francisco, CA"
+  },
+  {
+   "asset_id": "u-s-bank-pelosi-trust-checking-account",
+   "name": "U.S. Bank - Pelosi Trust Checking Account",
+   "owner": "SP",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "$1 - $1,000",
+    "min": 1,
+    "max": 1000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": "Interest",
+   "income": {
+    "raw": "$1 - $200",
+    "min": 1,
+    "max": 200,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "San Francisco, CA"
+  },
+  {
+   "asset_id": "wells-fargo-bank-checking-account",
+   "name": "Wells Fargo Bank - Checking Account",
+   "owner": "JT",
+   "instrument": "bank_account",
+   "value_range": {
+    "raw": "$15,001 - $50,000",
+    "min": 15001,
+    "max": 50000,
+    "is_none": false,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": true,
+    "exact": false
+   },
+   "income_types": null,
+   "income": {
+    "raw": "None",
+    "min": null,
+    "max": null,
+    "is_none": true,
+    "undetermined": false,
+    "max_inferred": false,
+    "in_known_bucket": null,
+    "exact": false
+   },
+   "status": "Reported in annual report (period ending 2025-12-31)",
+   "location": null,
+   "description": "San Francisco, CA"
+  }
+ ]
+}
