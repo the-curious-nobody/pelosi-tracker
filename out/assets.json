@@ -676,6 +676,18 @@
   ],
   "canonical_name": "REOF XXVI, LLC"
  },
+ "reof-xxx-llc": {
+  "asset_id": "reof-xxx-llc",
+  "ticker": null,
+  "is_security": false,
+  "instruments": [
+   "asset_backed_or_fund"
+  ],
+  "name_variants": [
+   "REOF XXX, LLC"
+  ],
+  "canonical_name": "REOF XXX, LLC"
+ },
  "russell-ranch-llc": {
   "asset_id": "russell-ranch-llc",
   "ticker": null,
