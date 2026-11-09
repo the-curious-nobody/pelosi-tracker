@@ -2840,5 +2840,60 @@
   "corroborated": false,
   "disclosure_delay_days": 24,
   "delay_basis": "ptr"
+ },
+ {
+  "record": "transaction",
+  "source_schedule": "PTR",
+  "owner_code": "SP",
+  "asset_raw": "Warner Bros. Discovery, Inc. - Series A Common Stock (WBD) [ST]",
+  "asset_name": "Warner Bros. Discovery, Inc. - Series A Common Stock (WBD)",
+  "asset_type_code": "ST",
+  "ticker": "WBD",
+  "transaction_code": "S",
+  "transaction_date": "2026-10-07",
+  "notification_date": "2026-10-07",
+  "amount": {
+   "raw": "$50,001 - $100,000",
+   "min": 50001,
+   "max": 100000,
+   "is_none": false,
+   "undetermined": false,
+   "max_inferred": false,
+   "in_known_bucket": true,
+   "exact": false
+  },
+  "filing_status": "New",
+  "description": "Cash proceeds from Warner Bros Discovery merger with Paramount Skydance.",
+  "location": null,
+  "comments": null,
+  "facts": {
+   "kind": "other",
+   "lots": [],
+   "shares": null,
+   "units": null,
+   "is_gift": false,
+   "exercise": null
+  },
+  "needs_review": false,
+  "notes": [
+   "asset name reassembled across page break (ticker/type code recovered from the amount cell)"
+  ],
+  "filing_id": "20035780",
+  "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035780.pdf",
+  "filed_date": "2026-11-06",
+  "row_order": 0,
+  "asset_id": "WBD",
+  "instrument": "stock",
+  "underlying_ticker": null,
+  "provenance": [
+   {
+    "filing_id": "20035780",
+    "schedule": "PTR",
+    "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035780.pdf"
+   }
+  ],
+  "corroborated": false,
+  "disclosure_delay_days": 30,
+  "delay_basis": "ptr"
  }
 ]
